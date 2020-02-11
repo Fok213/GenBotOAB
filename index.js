@@ -1,0 +1,1699 @@
+const Discord = require('discord.js');
+const client = new Discord.Client();
+
+const token = 'Njc2NjMzMzQwOTAzOTQ4Mjk4.XkIh7g.xY_EQnlVW5VdioNnpbCwwi0uiHQ';
+usedCommandRecently4 = new Set();
+
+client.on('ready', () =>{
+    console.log('gen bot is now online')
+    client.user.setPresence({ game: { name: `/help for help + BOT IS SLIGHTLY BUGGY`}});
+});
+client.on('message', message =>{
+    if (message.content === '/help'){
+        message.author.send('do /nitro for nitro and /metal for Metal Dungeon | CREDIT  TO _Darkling#2691 FOR  MAKING THIS BOT| MORE CONTENT COMMING SOON');
+    };
+});
+client.on('message', msg => {
+    if (msg.content === '/nitro') {
+      msg.reply('Check your direct messages!');
+    }
+  });
+client.on('message', message =>{
+    if (!message.guild) return;
+if (message.content === '/nitro'){
+    if (usedCommandRecently4.has(message.author.id)){
+        message.channel.send('Cooldown Message')
+    } else{
+        usedCommandRecently4.add(message.author.id);
+        setTimeout(() =>{
+            usedCommandRecently4.delete(message.author.id);
+        }, 10000)
+    var string = `https://discord.gift/ozYmIQM2eCnUY9XR
+    https://discord.gift/EKGRmK1SJ1DmWZjl
+    https://discord.gift/SBbuhow3CNZFTba9
+    https://discord.gift/uvjVo7JOHgNQmAgp
+    https://discord.gift/sccx7CJpnNoJUw8H
+    https://discord.gift/1D1BQy6U2xWbLQRc
+    https://discord.gift/HKmQ9Mb1V3HLTa3l
+    https://discord.gift/ifZSIOI4grFKQINH
+    https://discord.gift/5mbkjrIoCaPW0ub2
+    https://discord.gift/DL3G19E2crKShAln
+    https://discord.gift/qaQG8Sb0HKqH9VeW
+    https://discord.gift/qNgeOhQ6Sji1R0hb
+    https://discord.gift/YBGZOE3VJc9qS62q
+    https://discord.gift/nYBEugIiuTYYKkjQ
+    https://discord.gift/DpTHpoiVTvFMhznW
+    https://discord.gift/q2O2yMRS3xF4Qfkz
+    https://discord.gift/3sXDmva9QQV8L6a5
+    https://discord.gift/GcHSFqs0IbO1SneO
+    https://discord.gift/lgSZLUJ51OmR1Sh6
+    https://discord.gift/wKyOHC3Ma65lQiqC
+    https://discord.gift/MgXFnltVCM01eK9Z
+    https://discord.gift/3SFiZzgSmgZOYxpS
+    https://discord.gift/yTfU5MTkrMl5LcIz
+    https://discord.gift/7gr8NhNmaeshwO7f
+    https://discord.gift/whCuFp4r8u1mnlhk
+    https://discord.gift/HzRSfqfqg2U0tLYM
+    https://discord.gift/PgIDJo4Rla9tqA8Y
+    https://discord.gift/7iK77oagclnMFd8x
+    https://discord.gift/GpHhNNKsF9GfrWaQ
+    https://discord.gift/353lb1OAgCBxbrmi
+    https://discord.gift/bMXb21luHrB8S4Zq
+    https://discord.gift/lHTKkXvOKhakmnro
+    https://discord.gift/WydO99XbTINUzQRl
+    https://discord.gift/NkmDIM8oqiAU1ahu
+    https://discord.gift/anlu0krmTR0LjLo3
+    https://discord.gift/zYHbaXQkzZy0IdkS
+    https://discord.gift/AtTmFxuC3aU0VwfP
+    https://discord.gift/3GucDgtmGa4bWANQ
+    https://discord.gift/GhkZ1cycDfiacZyc
+    https://discord.gift/TS7cShpuaHQEDtQD
+    https://discord.gift/wetOmqX1isJx8skQ
+    https://discord.gift/M1sdDK7z20Zuv3Ik
+    https://discord.gift/yON8FU0D5f4zI1wR
+    https://discord.gift/x92LaNaWg4WwBCFo
+    https://discord.gift/Uy9tOll2aZhxQI0a
+    https://discord.gift/Dh7wb7jVO11L8EcC
+    https://discord.gift/KPPj2cclYaKlFMfI
+    https://discord.gift/eV2tFjnWonOXtJ3G
+    https://discord.gift/XOXa2QiBeWIbw8qb
+    https://discord.gift/VtHmMS7BC24Oxp1o
+    https://discord.gift/gex0ZfPxNBpTKlAq
+    https://discord.gift/7NbacR4fRwHaWDdY
+    https://discord.gift/4u4sKzlQOkJkDo0q
+    https://discord.gift/CORUo1lyksjDHOKk
+    https://discord.gift/xAYqriPHBuv2iTLC
+    https://discord.gift/FqIhVsJdiFirqSj9
+    https://discord.gift/JzWcAJ9t9jt4FsqA
+    https://discord.gift/QQ7qgDyf0VhVaxrT
+    https://discord.gift/lvtT6Jc6rohM9PH0
+    https://discord.gift/oRKJU23fbRlOCotM
+    https://discord.gift/2JTj9HEhOb91vVfl
+    https://discord.gift/orGsWR9sCoRoxxEc
+    https://discord.gift/5FTA6x1RnD5S3bTp
+    https://discord.gift/LaAkRaZkKARUZpTq
+    https://discord.gift/H660cPo0AZftVryA
+    https://discord.gift/ECMx7tu5PIZFPg18
+    https://discord.gift/TPk7f3n6WJU24Gyt
+    https://discord.gift/cqqxMwsoLakDZSku
+    https://discord.gift/7hJggBuLpQLxJCaj
+    https://discord.gift/jGDzZEvxw6veSTgd
+    https://discord.gift/yA5X7smL6Ph5U5Pj
+    https://discord.gift/abttpVEDVlUkfp2F
+    https://discord.gift/KI8iHml1t1CkwAMB
+    https://discord.gift/qleRAWXM6BbVIbFQ
+    https://discord.gift/WMvm6GMXZC9ystgv
+    https://discord.gift/It33lkfXUvmflzts
+    https://discord.gift/wWxUfAEUJq28XzuM
+    https://discord.gift/uPnoiLEMGHBKtHMz
+    https://discord.gift/iRbG6wqiYju5rh9v
+    https://discord.gift/bKUFmejUsVnH83Ac
+    https://discord.gift/NDZgxXQ8zez8rIuz
+    https://discord.gift/HgJTWgmeHrnliTk5
+    https://discord.gift/TssYr38n4VgiOlDU
+    https://discord.gift/AY91uQpGrVIgKF0P
+    https://discord.gift/3Eo8qGhNivZaadzv
+    https://discord.gift/XDUtTtLdcVHGv1Ny
+    https://discord.gift/5Aok7ED4RwT80oGn
+    https://discord.gift/vnshUG6K3l6E8Ksq
+    https://discord.gift/RAfJYpys90MxJMmX
+    https://discord.gift/ptkhJGOzEOqWI95g
+    https://discord.gift/dCrAj6ygZah43Iar
+    https://discord.gift/8ioOAkRlWQek8LTa
+    https://discord.gift/4GtgvWOs5esIyTF5
+    https://discord.gift/N9XAUqQ2VfOD1nhn
+    https://discord.gift/qh9xo36mE6Tw2iXc
+    https://discord.gift/kiH9XtpN0BvpikBR
+    https://discord.gift/6esqUhQTcL6YHt9N
+    https://discord.gift/rLsSQiz71vHXIQet
+    https://discord.gift/FbAXZGscCX6mwBgG
+    https://discord.gift/BS8G1SbYOvzyK3lw
+    https://discord.gift/HMtF3mXVtpq2lnKA
+    https://discord.gift/pav0SICW9LiEh4CI
+    https://discord.gift/MKPUiKMp5mmLBjMB
+    https://discord.gift/U9iKHuO8kGGrdsOz
+    https://discord.gift/XSpLIZrOxg5Fv0v0
+    https://discord.gift/9RUiV2ar6QKMevlM
+    https://discord.gift/IWYT3b34REmBziMt
+    https://discord.gift/lPsvHGO5R8O1pPKc
+    https://discord.gift/4s6JcM77YZArQJ2X
+    https://discord.gift/drBycZfci3b5wbPc
+    https://discord.gift/3jGhldrISuHSfxoi
+    https://discord.gift/f1X8olaem4BjKcLX
+    https://discord.gift/kyxGcULaa2QSsw7U
+    https://discord.gift/O3ZFnRXSjC4rMh8P
+    https://discord.gift/TUIRaSfvqX8wEsW0
+    https://discord.gift/7QFQngJCKOxKZtx2
+    https://discord.gift/3b8IYpU5YDoASBn1
+    https://discord.gift/Qeu6MrCNlfgvuFG6
+    https://discord.gift/zfCDtncR5J2T1jUj
+    https://discord.gift/BG4U9BpLIvxSjzLs
+    https://discord.gift/6saM8THCcNadzSVb
+    https://discord.gift/v63YKV7700570tHF
+    https://discord.gift/7JWIihlR8BSvBmmZ
+    https://discord.gift/JvwnGWSlvcWhYJLS
+    https://discord.gift/gEfZ5n3oVmZicLGN
+    https://discord.gift/NfyF6u9l1Lnfud2z
+    https://discord.gift/0ap6hx3wBiBt7JiT
+    https://discord.gift/GjETlfVWF47u9X4S
+    https://discord.gift/tAscwJGqlbdY2Pns
+    https://discord.gift/CDJkJjnUpCBnzJwO
+    https://discord.gift/oT9Hqgw6NnHjb64Z
+    https://discord.gift/QP1FoTjkmHW3it0L
+    https://discord.gift/PzKiPQbwhMHvLeTs
+    https://discord.gift/IMGUR0zEKZuTuCXt
+    https://discord.gift/x5EMwWjaNFyLlYJh
+    https://discord.gift/YDvGWf4YafH0vsbO
+    https://discord.gift/Yo7PKg6WCFhmCXtW
+    https://discord.gift/qn40hrGrbPMrosPu
+    https://discord.gift/DTX704HRHIdr8Rwm
+    https://discord.gift/VUKhylHHRPN4EPHk
+    https://discord.gift/0XSSaw6wPnsInptt
+    https://discord.gift/tzFESH6slpqkqMm2
+    https://discord.gift/b3Al9NlzYoCl29tB
+    https://discord.gift/wtKfkdCt1AHUfVfc
+    https://discord.gift/aAHtZhuQofPDfUzm
+    https://discord.gift/6ZX6chS7BhuJgBuc
+    https://discord.gift/jzkCCaMo940ey8og
+    https://discord.gift/buYq7ia3SJ2RXVKX
+    https://discord.gift/UMuPK6T6mI7hqNJC
+    https://discord.gift/3oHVMdeayrT2h4Bo
+    https://discord.gift/tdtVOIFeK2dyl3Mf
+    https://discord.gift/azXJnYkRHursn1Ys
+    https://discord.gift/hSXmtXYvSDkU9QYF
+    https://discord.gift/OO2Sg1aF3Mntqm1T
+    https://discord.gift/eVrCfAWmKC1UOAR1
+    https://discord.gift/GVOI8flpSstQKEeF
+    https://discord.gift/MBQoyvAo2QiOaq0D
+    https://discord.gift/5vXFIsV8KbUWgfLf
+    https://discord.gift/ywhnTCCkvzQr7HpB
+    https://discord.gift/CZVoQJ6tPROxKOhW
+    https://discord.gift/ecpOiNTC2NjjMDbc
+    https://discord.gift/VturuxyZzXHbYfKR
+    https://discord.gift/r3n4rLsYgsvdzXRm
+    https://discord.gift/QLLrt0CRNAougROX
+    https://discord.gift/dC1SphUkaFlbbvzM
+    https://discord.gift/gvvmEsxAAGq1w7Sy
+    https://discord.gift/OIa6586J0ArYPAPs
+    https://discord.gift/aMoUwBtUfArT03Yc
+    https://discord.gift/XWwDuDQhyWwdbJV9
+    https://discord.gift/171UT7cnoq1ERmS7
+    https://discord.gift/Moa2el8H5gwJeqTG
+    https://discord.gift/Pr22cet0UjoeLmAm
+    https://discord.gift/dyAWJ25P9uYMLCi8
+    https://discord.gift/GvZzu04I5jh4645T
+    https://discord.gift/QkFQZ66Wvm3SpQps
+    https://discord.gift/aqHqwb1nE21zUbTe
+    https://discord.gift/yf6B6CjJycdh6mso
+    https://discord.gift/3Z4QwOwOssl6fHbu
+    https://discord.gift/DYtjUYvIg71u8Trr
+    https://discord.gift/JNF4gcSTTriOqnE1
+    https://discord.gift/bSOi2jDfEvKzXcQJ
+    https://discord.gift/b4wCbgoAgJADQQr3
+    https://discord.gift/DaspeiyAjAAUCt6R
+    https://discord.gift/KJNw0b04EncsT9zX
+    https://discord.gift/eQ5WTAE2F6sKQD7W
+    https://discord.gift/NT2gd5cBkyV1gfRj
+    https://discord.gift/bMQVxj7jfV04Spnb
+    https://discord.gift/ppP9gsUjODMuONVz
+    https://discord.gift/ojIdWmzDVSbseiS4
+    https://discord.gift/kUL1ARcT2Hh3HNFC
+    https://discord.gift/9BPJQkodZmoxrCeG
+    https://discord.gift/VRj4b39HgZlpeF5i
+    https://discord.gift/nIsMCjoaGHcnDOBA
+    https://discord.gift/CLi0DKAgChD0898u
+    https://discord.gift/rgkSjCdLDixE1VeB
+    https://discord.gift/xVWDwfONimkuPxcG
+    https://discord.gift/IR6wETqaHGxum5oQ
+    https://discord.gift/dbCnnF7lBGK7rS5f
+    https://discord.gift/g16jYR6OEV5ZRtAm
+    https://discord.gift/7DrO4YtdUU57jtTZ
+    https://discord.gift/Krov9e2weYSBJhEh
+    https://discord.gift/gx9YBrksH2zeV9Fl
+    https://discord.gift/cgozfem2L4Jgf1DM
+    https://discord.gift/qX0Vt4yth6YgPXKf
+    https://discord.gift/sHzC2ecclhmGSdmP
+    https://discord.gift/zXX8iT2hS5sjpfnX
+    https://discord.gift/uDYICaTmVYKmS1Kd
+    https://discord.gift/TiR1aM7IOrU7W2Wf
+    https://discord.gift/3ylopNnydLmtjQz0
+    https://discord.gift/vozgywXSFp3kqWA2
+    https://discord.gift/bFstQvXf5tXyzNz8
+    https://discord.gift/24LHDPRHLDTaTcir
+    https://discord.gift/lusOxfk9AtleIys1
+    https://discord.gift/05rwk2zvXVRmMXw3
+    https://discord.gift/lGnfvUKXTMgjEM8n
+    https://discord.gift/k1jYUVhs470Ly7xN
+    https://discord.gift/7s3cknGfuEMHWp0l
+    https://discord.gift/WEcVNHizy5kx39zW
+    https://discord.gift/pDmmT6c7ueEqjJGO
+    https://discord.gift/gPZ35L9AjENpcjlv
+    https://discord.gift/f0ssdOC0CfAJd2pZ
+    https://discord.gift/yFqokF0NEVdotW4l
+    https://discord.gift/2iktqnLCn8B0kAwq
+    https://discord.gift/oY1H27lJ9OYrKnHQ
+    https://discord.gift/kpQ4S6Ik4YaleaCe
+    https://discord.gift/zWaE5xs57KtLzt1a
+    https://discord.gift/BUP5TCIspQMe69F9
+    https://discord.gift/mU2YncVX6V6hM6VL
+    https://discord.gift/6aTtuHu6nRpoUo97
+    https://discord.gift/fuzOAdWz9187FBPt
+    https://discord.gift/4bh5qlOOz6LFXGcS
+    https://discord.gift/W8csHgk3nttCJwAV
+    https://discord.gift/c6uTgdR3PUpEBrMD
+    https://discord.gift/ZqlHzxVX0oR71lfc
+    https://discord.gift/FZC1mtLSriMW1QB6
+    https://discord.gift/Q0Ntl3wPkG32wTbD
+    https://discord.gift/Pm8LYVrFODpqU96j
+    https://discord.gift/WVqbIW1MCXQPASwH
+    https://discord.gift/gihOSZh5IiOSNg4k
+    https://discord.gift/JTfLDa52vvjaeLf5
+    https://discord.gift/gRkL2sB7NvDzhj8w
+    https://discord.gift/2GgQNVegmoswQg06
+    https://discord.gift/cSL65ssrsi7iHFUm
+    https://discord.gift/xWiIFzsvMdyN9eqG
+    https://discord.gift/EGxzHcAKoYxEX6JR
+    https://discord.gift/Dg948sANAqt23Oro
+    https://discord.gift/1BNaivOuvHtRbXIQ
+    https://discord.gift/ERk3fwHlfU8rTIQK
+    https://discord.gift/GjNvsIIiBOIA9TLM
+    https://discord.gift/RMxmEyjF3B5ywxKW
+    https://discord.gift/1Tk2kmx5jbBAXgmv
+    https://discord.gift/ivJgkEgiahC1NkVe
+    https://discord.gift/eVJpJTCFpCdC6TRW
+    https://discord.gift/oJpaXEMxMb1cUGs8
+    https://discord.gift/pxwcH6Wy3d1SANlr
+    https://discord.gift/APMd4VqKjlMH1AVS
+    https://discord.gift/kemIwPorX0hTM369
+    https://discord.gift/0KMe3oeEhW2wuoHC
+    https://discord.gift/siIwBM4UAupdNG7p
+    https://discord.gift/oNRqXQZ5aRBKW27J
+    https://discord.gift/tOBDvKInQ1OJ8a1L
+    https://discord.gift/YMiQHqPLtNwTlt8H
+    https://discord.gift/wQU8fE4OfDK6cq69
+    https://discord.gift/00WjUrbc9ZkSnYbw
+    https://discord.gift/2gmsq2FuSDKdPSJd
+    https://discord.gift/Qw3vHYXfPR9ptmAq
+    https://discord.gift/Cnd5dOT7uCBqQ8xq
+    https://discord.gift/pgb15QZeshNJ2qaG
+    https://discord.gift/dtLBOO9cM5aexHyQ
+    https://discord.gift/uS9nlIvVy9M6akee
+    https://discord.gift/B5nwx5MLg8o9PUQV
+    https://discord.gift/S6okqXvE8ZdPbdbB
+    https://discord.gift/06NCtctygygmtwfN
+    https://discord.gift/t0ne54XOKSyH16Kd
+    https://discord.gift/6WiThnCQM0d1RikM
+    https://discord.gift/TAvkZ7G6i82LNWHj
+    https://discord.gift/YdqHnwFfyHCf057B
+    https://discord.gift/IWYALzn9qmKiv0cZ
+    https://discord.gift/s4dN2Nyw4qVsEAfm
+    https://discord.gift/bAc18gIyZqqbWxUH
+    https://discord.gift/EMX62tJ4xBFuN4EZ
+    https://discord.gift/gxg4Xl1lvPYLxxKH
+    https://discord.gift/GnX1NjuS1iDGLnU4
+    https://discord.gift/WA4yqZTtULKnE8Ha
+    https://discord.gift/08YzhMm7cydPRuKi
+    https://discord.gift/43Z6CmrQDEhcIhn2
+    https://discord.gift/KCQNyuXjn6v1VeLz
+    https://discord.gift/aBsLjLHOQh6MFky5
+    https://discord.gift/kkfoO7UJfPSG0z5z
+    https://discord.gift/2RbgYMT95b6qykNd
+    https://discord.gift/HARK8wVdRTFD2bXq
+    https://discord.gift/mGUYjsgIAgtMaDk5
+    https://discord.gift/cP8ASuBG67yfgqh4
+    https://discord.gift/oPd2AZ4ptij2dico
+    https://discord.gift/JKBndwI2en1l3bCk
+    https://discord.gift/9zyuzrEmUSgKkIDY
+    https://discord.gift/4kFGZ301hlXn7Sws
+    https://discord.gift/Q93NURYrfoCuq8SG
+    https://discord.gift/UdqTF5ufIGnoDrpb
+    https://discord.gift/wX3kPZenwnAKBFLj
+    https://discord.gift/CrC3CNXUOXenEJXX
+    https://discord.gift/9A8CeH049dwrETOc
+    https://discord.gift/5eVmYvJTajG1U0TW
+    https://discord.gift/zNLaHif5BI3yqFp4
+    https://discord.gift/jcrAXL8O1pB4b8jj
+    https://discord.gift/uK11iOFW80VqBlCF
+    https://discord.gift/4LSSIs9YO7jsRk4C
+    https://discord.gift/zUeQNxWFGFB70SmQ
+    https://discord.gift/W5azpAKbLdnlFneY
+    https://discord.gift/6s1QgW2GYnmd1c76
+    https://discord.gift/UDFVjEm8kceJkLat
+    https://discord.gift/AMaI1FJ9dDLcoHjJ
+    https://discord.gift/fqAcRtOCf2GeRsvn
+    https://discord.gift/n2Mpbzeo3GSQ3kUM
+    https://discord.gift/2FD3k8Lh7IC89FrU
+    https://discord.gift/hxZv54HQmlilK8J5
+    https://discord.gift/i4lmYCcpqErD6gpy
+    https://discord.gift/o7IFuyR88XR9ZAG9
+    https://discord.gift/9H0euf6PuKeANeTf
+    https://discord.gift/5T6NAdKUmnnaUdz0
+    https://discord.gift/7rDzqkeja2kTtru3
+    https://discord.gift/eLdfD3J56f2g154r
+    https://discord.gift/loCwKtZUPXMH21B5
+    https://discord.gift/2u6i9txeSHDks7rf
+    https://discord.gift/73IeY8sUVsAQqbdf
+    https://discord.gift/O6oH8Ws11xNcZPBR
+    https://discord.gift/FHK9swg4blwQ2QYR
+    https://discord.gift/EyFwTUglLQnBup5g
+    https://discord.gift/0SkTAdWsZuFXzL9k
+    https://discord.gift/J6IBjf8UAzyLiPJV
+    https://discord.gift/qqZkFeqALmGyptW9
+    https://discord.gift/Rd1yRD6VTAtbPkkk
+    https://discord.gift/VTGiVYOFPhZ7JKEh
+    https://discord.gift/My4fYkeWteAfVpVB
+    https://discord.gift/cwNGWNn2ywTKO9mj
+    https://discord.gift/5lyqqfwKPUYRyJTA
+    https://discord.gift/vy4m68u9lbQBADhu
+    https://discord.gift/1qjJ0Ek7ac1bYFDY
+    https://discord.gift/Mtoqe9n70zfoy4kl
+    https://discord.gift/MEZizkJ1n7m4htkP
+    https://discord.gift/H2Zhp1p2dmSAy6If
+    https://discord.gift/2QzuQvzCTxcgWsZH
+    https://discord.gift/pAQGfc6Vo7enBiCr
+    https://discord.gift/ygbB3Z9mCwy1YifU
+    https://discord.gift/wkl8pcaZTOfSqlbK
+    https://discord.gift/4VSQqyNzBEdSOe6f
+    https://discord.gift/1u0q7EbwflRpUq5r
+    https://discord.gift/vX7dAzD7GVHV9slP
+    https://discord.gift/R916vUNzTwKfRyPk
+    https://discord.gift/IWx1h3PC02Tl7qwX
+    https://discord.gift/acIUz95KkHteYyqi
+    https://discord.gift/fwmn5uIYuygCbBCD
+    https://discord.gift/9XePZ5VJ0WQJKKNB
+    https://discord.gift/MKgKdj2QDUza2DJS
+    https://discord.gift/eZfbuLskLNxiN8nU
+    https://discord.gift/UOZAv2z04ylfGUQw
+    https://discord.gift/m7FUFMhbr58AWTcF
+    https://discord.gift/GOpoNjxmAog5znN1
+    https://discord.gift/6a5PDDpiGYiz39dk
+    https://discord.gift/wQJ2EBSdJsuqFmLe
+    https://discord.gift/shDVYwbczhSYa8sA
+    https://discord.gift/l6JTNVwFr1fkj8Mt
+    https://discord.gift/ndgWGsw9OGCxS3dL
+    https://discord.gift/a3fJM1AHU8D6r13A
+    https://discord.gift/EyL62F42JKfhs9Wy
+    https://discord.gift/YEjp3dQwMJbHYASW
+    https://discord.gift/Nc2usgSE9m9cVtoV
+    https://discord.gift/lfiWRNGARptsEwej
+    https://discord.gift/2sDpgCfRVPqRdOKs
+    https://discord.gift/upvSr5f9FCMdWzaM
+    https://discord.gift/h0kD08PTaAacwZwd
+    https://discord.gift/Pa8oaw16nDUOZc4v
+    https://discord.gift/OOJnDgCvKLS14cNQ
+    https://discord.gift/fIyWBWLV8oqwob47
+    https://discord.gift/GPxSpjJIIMNyNabk
+    https://discord.gift/0dJqOi42cYpp0ggJ
+    https://discord.gift/RUupP4B58ZoYinh7
+    https://discord.gift/mfFlCNtxVEQA4uRB
+    https://discord.gift/GeR3PWF6LNsY4fUZ
+    https://discord.gift/RrdVK5heA7EknabO
+    https://discord.gift/iWsdFnrzKJJYvFDP
+    https://discord.gift/U1TMq61L6MCSsvSK
+    https://discord.gift/LNPiXQtD9OlbvsT5
+    https://discord.gift/DYzwrzxm4Rg3VIhp
+    https://discord.gift/08nRZv2dHpMMVZpO
+    https://discord.gift/3GpD5wtlqDnfJARB
+    https://discord.gift/H5lwecgi6vYbXVBe
+    https://discord.gift/BCaotNtDPbBwhWEh
+    https://discord.gift/HlfZO2J1AgHJHryF
+    https://discord.gift/ciOhADh3MRRdKUaj
+    https://discord.gift/1QDLPMAI2iYmgU6y
+    https://discord.gift/M6u9ixRedln7lGqQ
+    https://discord.gift/gxS0XXZzSforO5X1
+    https://discord.gift/UsAOAbbE8zIDyCxw
+    https://discord.gift/2igScfLZg4rdiAAi
+    https://discord.gift/yvm2gLqfwn2yowap
+    https://discord.gift/R2yGZeZPRKIFT7vI
+    https://discord.gift/8AfdpEpr2awYnmLU
+    https://discord.gift/3bvqc3ttFHkGdUvy
+    https://discord.gift/1tzYr7amMhOYSbCE
+    https://discord.gift/9YMSMfGfgVIStToi
+    https://discord.gift/P863XWD5biN4pELE
+    https://discord.gift/fQGohNVWXuRFzs33
+    https://discord.gift/3FjUeIRmuQQDCLZM
+    https://discord.gift/kdNNm9abmkfDe7GS
+    https://discord.gift/pUbTv1AG9u4A6stm
+    https://discord.gift/EfvvPpQ4FhH3Dnhx
+    https://discord.gift/k8oSJfrtNgO2eKe4
+    https://discord.gift/0299Mkd9dhontGcV
+    https://discord.gift/mHp8dLNyYbSILYZ4
+    https://discord.gift/cNdKoiU94oOC1d9h
+    https://discord.gift/e2PHug0opKlKCFyp
+    https://discord.gift/sukQDCHeWqdZ7lHU
+    https://discord.gift/cKESirJ6WYuN7jGz
+    https://discord.gift/ZyjG3tOMuLVecare
+    https://discord.gift/cAI1bQhbVo3Oh4hM
+    https://discord.gift/TO9Ibb1S61xGFE3V
+    https://discord.gift/HpLGLOyjriVPz9EA
+    https://discord.gift/EiuybSdbI04jsKFq
+    https://discord.gift/uhh1sKbeq0r2pms7
+    https://discord.gift/x6cwkFUZmJ7UTo0R
+    https://discord.gift/NFur1Mh4hpikAkVw
+    https://discord.gift/H7VvIifYxsPTMqub
+    https://discord.gift/aKpU1bfUZip4xKyb
+    https://discord.gift/YLnWDEiEzF4J7yr0
+    https://discord.gift/4gj04bEG1aGA2lBW
+    https://discord.gift/3N4bdIIFBVuvgFXA
+    https://discord.gift/0z9qAIhWgR5C8SMo
+    https://discord.gift/ehQtDpXwIOyjRjzv
+    https://discord.gift/nfJClkwvGh5vNfHT
+    https://discord.gift/igr8ZD6KMMSWj7f7
+    https://discord.gift/sJo2jjc3VuXwuBTC
+    https://discord.gift/gPaL1AGTj80JCJlI
+    https://discord.gift/c8dd0PK9dxnEPKqk
+    https://discord.gift/3pPE6Ef1cFSksDBl
+    https://discord.gift/jotwyPMBfbHDnbeI
+    https://discord.gift/SPQn3RMH2lbv6zRK
+    https://discord.gift/6bvAq4VnNoy57LOb
+    https://discord.gift/BkCMXnrBMWDnOqEP
+    https://discord.gift/u6HlQNrX3CKPsQKq
+    https://discord.gift/H94W7eXST3YEAIIw
+    https://discord.gift/UTLbeCuX2OSuNMj5
+    https://discord.gift/lnPOvRSpiYCXZXxv
+    https://discord.gift/3n4JfJlePg4svDfg
+    https://discord.gift/T2sm33acav2qaH8e
+    https://discord.gift/qxAASKZMbK9pXz4P
+    https://discord.gift/Tvd6EkB9m1IUQ5ei
+    https://discord.gift/hZc8cOyjcQls4VpL
+    https://discord.gift/BmHODcKf5An0cf5f
+    https://discord.gift/F1h7x6Me644Y9jfB
+    https://discord.gift/M6sEyzOfp6cLBIh6
+    https://discord.gift/UfWdNroFJDSJiWgW
+    https://discord.gift/vWnfWBRgmbSA3bMy
+    https://discord.gift/W7d3wbXuSX45Rf7D
+    https://discord.gift/ZpqPubjsyQ1MJXLI
+    https://discord.gift/0tWkSnAt92x9HWyg
+    https://discord.gift/doLOU7eVXUFPkkV4
+    https://discord.gift/lveytWUMY7PBOkVM
+    https://discord.gift/sUIum7Y2pbx7RUiY
+    https://discord.gift/hDXlRaXrE8ZWrMgM
+    https://discord.gift/93xAMARoHmiszX4e
+    https://discord.gift/Y1ulwJ5s7r0ohbKN
+    https://discord.gift/4U7YwSlQVJOE1E2Q
+    https://discord.gift/dV7As4qz7fCvKDhF
+    https://discord.gift/LFxOZgRgPNzW4AAC
+    https://discord.gift/zjkwdku9EI0rp0gs
+    https://discord.gift/Cj3vgo17d1UPEDFH
+    https://discord.gift/O96AsUCBkxjrpA1Z
+    https://discord.gift/GhuVHfvksmsmzPEa
+    https://discord.gift/ctMp4P9RRBkTeJSN
+    https://discord.gift/95ixiTaJNVifBpbF
+    https://discord.gift/2jo5XL50hNef4MgS
+    https://discord.gift/EPmEGh1ttdLiH4pB
+    https://discord.gift/AP04vWZyarpFO4Pa
+    https://discord.gift/OzLWdG8Vr5MU9Wtn
+    https://discord.gift/yNPpWmxR0XEp2wOy
+    https://discord.gift/xKEisDx3QfNAkfyn
+    https://discord.gift/8bhbpAoCc36pcT35
+    https://discord.gift/qnwyrk44pVIRJ7HU
+    https://discord.gift/zqq0pMj7wcfzHi07
+    https://discord.gift/mRj7Sa5XhmWD1H3e
+    https://discord.gift/wl0VDdQNdzcpfFxg
+    https://discord.gift/5LF1XKcyuCSc0QfZ
+    https://discord.gift/jadvseDibG3t8QSL
+    https://discord.gift/YPIqbbrVjBBauNXx
+    https://discord.gift/tmgeCcY0hwZrQSAO
+    https://discord.gift/ThnkhZXhTrm0NDYy
+    https://discord.gift/SF9VJOjW1SiPmafA
+    https://discord.gift/bWqnzNpEz9ukZ7mO
+    https://discord.gift/HAIkTPff7BszQh4S
+    https://discord.gift/mVZ1mL8fqEwJt963
+    https://discord.gift/FEiVC4RwQlp8u0Yr
+    https://discord.gift/eM8eiuB5BC4psFV7
+    https://discord.gift/Ez3l9iqseDkbvaVA
+    https://discord.gift/PeFRa2Vkdmta9Cdl
+    https://discord.gift/zrD56Nr5vP9PkzJB
+    https://discord.gift/REJoad7MNThXZqtM
+    https://discord.gift/A9MeGZEcWJwu2faO
+    https://discord.gift/M2tE2Ykwu1rnFEgf
+    https://discord.gift/wxpkXF41aGBBRMTI
+    https://discord.gift/SDk67YTLYqTPIrHs
+    https://discord.gift/Cq7F0Z1h8CEwxTOS
+    https://discord.gift/iTEbtjiINOwHWpsT
+    https://discord.gift/9i9AOoR3Md8Ftxnf
+    https://discord.gift/LaHZWG8siz1mDuuS
+    https://discord.gift/jVxoTne4bLyqlNpp
+    https://discord.gift/Aq5VSC6DjRspwFzs
+    https://discord.gift/SpvHa9vx6MYlhShE
+    https://discord.gift/jLWmyIaQZ4ec5ZHF
+    https://discord.gift/lgH5rRpB5IZfOUvB
+    https://discord.gift/KYfUTn3joOSg4sCg
+    https://discord.gift/fsaallmBwur0S5be
+    https://discord.gift/INCgTWW7mxQM9iHM
+    https://discord.gift/fT9wTvpyLNyy5dAt
+    https://discord.gift/MNIqZvwsGcXXFJCn
+    https://discord.gift/XPU95PumxeFgyxci
+    https://discord.gift/6xavKqWUwRZRHC3b
+    https://discord.gift/llLqtBx6sv2VZq4j
+    https://discord.gift/aP0hJgNG39No0NP5
+    https://discord.gift/lE5nWWZF9ddoya4g
+    https://discord.gift/WQR2LVBeHewtYigP
+    https://discord.gift/Q7KuuRxn0viGdyi2
+    https://discord.gift/eGBk6XtAd0PSzFR0
+    https://discord.gift/6yIBAKVftDcqN4aj
+    https://discord.gift/5EprR5S3NkrDcPYu
+    https://discord.gift/OrJPZRCEVw1DUdWi
+    https://discord.gift/0FW4pzjaPPXqsrdO
+    https://discord.gift/ORMvvvtncUGvepiK
+    https://discord.gift/xjNG23fohIak4lmD
+    https://discord.gift/snYdBBXElJ2F3Y6z
+    https://discord.gift/Hn2jNGVUMxoWvjt0
+    https://discord.gift/Idc1Bei6wiutaJvs
+    https://discord.gift/MKNQtdZWBdBdmajc
+    https://discord.gift/pc70We8Ce6WFlCUc
+    https://discord.gift/c5jUGMHEnpzxNeTv
+    https://discord.gift/8sd8MFGHLlLwquK9
+    https://discord.gift/tybr0yGMFCMGOLYa
+    https://discord.gift/nBG3yVAGzMjubko3
+    https://discord.gift/OAdpdCEKWADj292a
+    https://discord.gift/wLiYXRKI8E1oplLu
+    https://discord.gift/oT2oHI7V76h7sqOA
+    https://discord.gift/Tj7zczf70FrIKpuK
+    https://discord.gift/Zj5jhOCYOx11KMpR
+    https://discord.gift/NPbmwtfkugIaPgn9
+https://discord.gift/eOZMhWs7YYnzMQpW
+https://discord.gift/1c5nQrUdOITv1wjq
+https://discord.gift/4okRGN61wdyIgQIO
+https://discord.gift/0ViMlatW4W7Id7gB
+https://discord.gift/O7FyGIpnfe0N3l78
+https://discord.gift/aeFfoGe34xXUPxXz
+https://discord.gift/764ikkirG4HgjP3S
+https://discord.gift/Y9I8Canh2LDiVEIR
+https://discord.gift/qBQ6rYYZ6nJt98Uo
+https://discord.gift/De5QZY66SXqIR9Fb
+https://discord.gift/wZZR97AakScoB4h4
+https://discord.gift/1oOQI12CETnEIpi7
+https://discord.gift/SH7kicpGO5FgWSEY
+https://discord.gift/PvRCuZCF6xnqT6B5
+https://discord.gift/JfG477WZ9hcNvVPV
+https://discord.gift/ozYmIQM2eCnUY9XR
+https://discord.gift/EKGRmK1SJ1DmWZjl
+https://discord.gift/SBbuhow3CNZFTba9
+https://discord.gift/uvjVo7JOHgNQmAgp
+https://discord.gift/sccx7CJpnNoJUw8H
+https://discord.gift/1D1BQy6U2xWbLQRc
+https://discord.gift/HKmQ9Mb1V3HLTa3l
+https://discord.gift/ifZSIOI4grFKQINH
+https://discord.gift/5mbkjrIoCaPW0ub2
+https://discord.gift/DL3G19E2crKShAln
+https://discord.gift/qaQG8Sb0HKqH9VeW
+https://discord.gift/qNgeOhQ6Sji1R0hb
+https://discord.gift/YBGZOE3VJc9qS62q
+https://discord.gift/nYBEugIiuTYYKkjQ
+https://discord.gift/DpTHpoiVTvFMhznW
+https://discord.gift/q2O2yMRS3xF4Qfkz
+https://discord.gift/3sXDmva9QQV8L6a5
+https://discord.gift/GcHSFqs0IbO1SneO
+https://discord.gift/lgSZLUJ51OmR1Sh6
+https://discord.gift/wKyOHC3Ma65lQiqC
+https://discord.gift/MgXFnltVCM01eK9Z
+https://discord.gift/3SFiZzgSmgZOYxpS
+https://discord.gift/yTfU5MTkrMl5LcIz
+https://discord.gift/7gr8NhNmaeshwO7f
+https://discord.gift/whCuFp4r8u1mnlhk
+https://discord.gift/HzRSfqfqg2U0tLYM
+https://discord.gift/PgIDJo4Rla9tqA8Y
+https://discord.gift/7iK77oagclnMFd8x
+https://discord.gift/GpHhNNKsF9GfrWaQ
+https://discord.gift/353lb1OAgCBxbrmi
+https://discord.gift/bMXb21luHrB8S4Zq
+https://discord.gift/lHTKkXvOKhakmnro
+https://discord.gift/WydO99XbTINUzQRl
+https://discord.gift/NkmDIM8oqiAU1ahu
+https://discord.gift/anlu0krmTR0LjLo3
+https://discord.gift/zYHbaXQkzZy0IdkS
+https://discord.gift/AtTmFxuC3aU0VwfP
+https://discord.gift/3GucDgtmGa4bWANQ
+https://discord.gift/GhkZ1cycDfiacZyc
+https://discord.gift/TS7cShpuaHQEDtQD
+https://discord.gift/wetOmqX1isJx8skQ
+https://discord.gift/M1sdDK7z20Zuv3Ik
+https://discord.gift/yON8FU0D5f4zI1wR
+https://discord.gift/x92LaNaWg4WwBCFo
+https://discord.gift/Uy9tOll2aZhxQI0a
+https://discord.gift/Dh7wb7jVO11L8EcC
+https://discord.gift/KPPj2cclYaKlFMfI
+https://discord.gift/eV2tFjnWonOXtJ3G
+https://discord.gift/XOXa2QiBeWIbw8qb
+https://discord.gift/VtHmMS7BC24Oxp1o
+https://discord.gift/gex0ZfPxNBpTKlAq
+https://discord.gift/7NbacR4fRwHaWDdY
+https://discord.gift/4u4sKzlQOkJkDo0q
+https://discord.gift/CORUo1lyksjDHOKk
+https://discord.gift/xAYqriPHBuv2iTLC
+https://discord.gift/FqIhVsJdiFirqSj9
+https://discord.gift/JzWcAJ9t9jt4FsqA
+https://discord.gift/QQ7qgDyf0VhVaxrT
+https://discord.gift/lvtT6Jc6rohM9PH0
+https://discord.gift/oRKJU23fbRlOCotM
+https://discord.gift/2JTj9HEhOb91vVfl
+https://discord.gift/orGsWR9sCoRoxxEc
+https://discord.gift/5FTA6x1RnD5S3bTp
+https://discord.gift/LaAkRaZkKARUZpTq
+https://discord.gift/H660cPo0AZftVryA
+https://discord.gift/ECMx7tu5PIZFPg18
+https://discord.gift/TPk7f3n6WJU24Gyt
+https://discord.gift/cqqxMwsoLakDZSku
+https://discord.gift/7hJggBuLpQLxJCaj
+https://discord.gift/jGDzZEvxw6veSTgd
+https://discord.gift/yA5X7smL6Ph5U5Pj
+https://discord.gift/abttpVEDVlUkfp2F
+https://discord.gift/KI8iHml1t1CkwAMB
+https://discord.gift/qleRAWXM6BbVIbFQ
+https://discord.gift/WMvm6GMXZC9ystgv
+https://discord.gift/It33lkfXUvmflzts
+https://discord.gift/wWxUfAEUJq28XzuM
+https://discord.gift/uPnoiLEMGHBKtHMz
+https://discord.gift/iRbG6wqiYju5rh9v
+https://discord.gift/bKUFmejUsVnH83Ac
+https://discord.gift/NDZgxXQ8zez8rIuz
+https://discord.gift/HgJTWgmeHrnliTk5
+https://discord.gift/TssYr38n4VgiOlDU
+https://discord.gift/AY91uQpGrVIgKF0P
+https://discord.gift/3Eo8qGhNivZaadzv
+https://discord.gift/XDUtTtLdcVHGv1Ny
+https://discord.gift/5Aok7ED4RwT80oGn
+https://discord.gift/vnshUG6K3l6E8Ksq
+https://discord.gift/RAfJYpys90MxJMmX
+https://discord.gift/ptkhJGOzEOqWI95g
+https://discord.gift/dCrAj6ygZah43Iar
+https://discord.gift/8ioOAkRlWQek8LTa
+https://discord.gift/4GtgvWOs5esIyTF5
+https://discord.gift/N9XAUqQ2VfOD1nhn
+https://discord.gift/qh9xo36mE6Tw2iXc
+https://discord.gift/kiH9XtpN0BvpikBR
+https://discord.gift/6esqUhQTcL6YHt9N
+https://discord.gift/rLsSQiz71vHXIQet
+https://discord.gift/FbAXZGscCX6mwBgG
+https://discord.gift/BS8G1SbYOvzyK3lw
+https://discord.gift/HMtF3mXVtpq2lnKA
+https://discord.gift/pav0SICW9LiEh4CI
+https://discord.gift/MKPUiKMp5mmLBjMB
+https://discord.gift/U9iKHuO8kGGrdsOz
+https://discord.gift/XSpLIZrOxg5Fv0v0
+https://discord.gift/9RUiV2ar6QKMevlM
+https://discord.gift/IWYT3b34REmBziMt
+https://discord.gift/lPsvHGO5R8O1pPKc
+https://discord.gift/4s6JcM77YZArQJ2X
+https://discord.gift/drBycZfci3b5wbPc
+https://discord.gift/3jGhldrISuHSfxoi
+https://discord.gift/f1X8olaem4BjKcLX
+https://discord.gift/kyxGcULaa2QSsw7U
+https://discord.gift/O3ZFnRXSjC4rMh8P
+https://discord.gift/TUIRaSfvqX8wEsW0
+https://discord.gift/7QFQngJCKOxKZtx2
+https://discord.gift/3b8IYpU5YDoASBn1
+https://discord.gift/Qeu6MrCNlfgvuFG6
+https://discord.gift/zfCDtncR5J2T1jUj
+https://discord.gift/BG4U9BpLIvxSjzLs
+https://discord.gift/6saM8THCcNadzSVb
+https://discord.gift/v63YKV7700570tHF
+https://discord.gift/7JWIihlR8BSvBmmZ
+https://discord.gift/JvwnGWSlvcWhYJLS
+https://discord.gift/gEfZ5n3oVmZicLGN
+https://discord.gift/NfyF6u9l1Lnfud2z
+https://discord.gift/0ap6hx3wBiBt7JiT
+https://discord.gift/GjETlfVWF47u9X4S
+https://discord.gift/tAscwJGqlbdY2Pns
+https://discord.gift/CDJkJjnUpCBnzJwO
+https://discord.gift/oT9Hqgw6NnHjb64Z
+https://discord.gift/QP1FoTjkmHW3it0L
+https://discord.gift/PzKiPQbwhMHvLeTs
+https://discord.gift/IMGUR0zEKZuTuCXt
+https://discord.gift/x5EMwWjaNFyLlYJh
+https://discord.gift/YDvGWf4YafH0vsbO
+https://discord.gift/Yo7PKg6WCFhmCXtW
+https://discord.gift/qn40hrGrbPMrosPu
+https://discord.gift/DTX704HRHIdr8Rwm
+https://discord.gift/VUKhylHHRPN4EPHk
+https://discord.gift/0XSSaw6wPnsInptt
+https://discord.gift/tzFESH6slpqkqMm2
+https://discord.gift/b3Al9NlzYoCl29tB
+https://discord.gift/wtKfkdCt1AHUfVfc
+https://discord.gift/aAHtZhuQofPDfUzm
+https://discord.gift/6ZX6chS7BhuJgBuc
+https://discord.gift/jzkCCaMo940ey8og
+https://discord.gift/buYq7ia3SJ2RXVKX
+https://discord.gift/UMuPK6T6mI7hqNJC
+https://discord.gift/3oHVMdeayrT2h4Bo
+https://discord.gift/tdtVOIFeK2dyl3Mf
+https://discord.gift/azXJnYkRHursn1Ys
+https://discord.gift/hSXmtXYvSDkU9QYF
+https://discord.gift/OO2Sg1aF3Mntqm1T
+https://discord.gift/eVrCfAWmKC1UOAR1
+https://discord.gift/GVOI8flpSstQKEeF
+https://discord.gift/MBQoyvAo2QiOaq0D
+https://discord.gift/5vXFIsV8KbUWgfLf
+https://discord.gift/ywhnTCCkvzQr7HpB
+https://discord.gift/CZVoQJ6tPROxKOhW
+https://discord.gift/ecpOiNTC2NjjMDbc
+https://discord.gift/VturuxyZzXHbYfKR
+https://discord.gift/r3n4rLsYgsvdzXRm
+https://discord.gift/QLLrt0CRNAougROX
+https://discord.gift/dC1SphUkaFlbbvzM
+https://discord.gift/gvvmEsxAAGq1w7Sy
+https://discord.gift/OIa6586J0ArYPAPs
+https://discord.gift/aMoUwBtUfArT03Yc
+https://discord.gift/XWwDuDQhyWwdbJV9
+https://discord.gift/171UT7cnoq1ERmS7
+https://discord.gift/Moa2el8H5gwJeqTG
+https://discord.gift/Pr22cet0UjoeLmAm
+https://discord.gift/dyAWJ25P9uYMLCi8
+https://discord.gift/GvZzu04I5jh4645T
+https://discord.gift/QkFQZ66Wvm3SpQps
+https://discord.gift/aqHqwb1nE21zUbTe
+https://discord.gift/yf6B6CjJycdh6mso
+https://discord.gift/3Z4QwOwOssl6fHbu
+https://discord.gift/DYtjUYvIg71u8Trr
+https://discord.gift/JNF4gcSTTriOqnE1
+https://discord.gift/bSOi2jDfEvKzXcQJ
+https://discord.gift/b4wCbgoAgJADQQr3
+https://discord.gift/DaspeiyAjAAUCt6R
+https://discord.gift/KJNw0b04EncsT9zX
+https://discord.gift/eQ5WTAE2F6sKQD7W
+https://discord.gift/NT2gd5cBkyV1gfRj
+https://discord.gift/bMQVxj7jfV04Spnb
+https://discord.gift/ppP9gsUjODMuONVz
+https://discord.gift/ojIdWmzDVSbseiS4
+https://discord.gift/kUL1ARcT2Hh3HNFC
+https://discord.gift/9BPJQkodZmoxrCeG
+https://discord.gift/VRj4b39HgZlpeF5i
+https://discord.gift/nIsMCjoaGHcnDOBA
+https://discord.gift/CLi0DKAgChD0898u
+https://discord.gift/rgkSjCdLDixE1VeB
+https://discord.gift/xVWDwfONimkuPxcG
+https://discord.gift/IR6wETqaHGxum5oQ
+https://discord.gift/dbCnnF7lBGK7rS5f
+https://discord.gift/g16jYR6OEV5ZRtAm
+https://discord.gift/7DrO4YtdUU57jtTZ
+https://discord.gift/Krov9e2weYSBJhEh
+https://discord.gift/gx9YBrksH2zeV9Fl
+https://discord.gift/cgozfem2L4Jgf1DM
+https://discord.gift/qX0Vt4yth6YgPXKf
+https://discord.gift/sHzC2ecclhmGSdmP
+https://discord.gift/zXX8iT2hS5sjpfnX
+https://discord.gift/uDYICaTmVYKmS1Kd
+https://discord.gift/TiR1aM7IOrU7W2Wf
+https://discord.gift/3ylopNnydLmtjQz0
+https://discord.gift/vozgywXSFp3kqWA2
+https://discord.gift/bFstQvXf5tXyzNz8
+https://discord.gift/24LHDPRHLDTaTcir
+https://discord.gift/lusOxfk9AtleIys1
+https://discord.gift/05rwk2zvXVRmMXw3
+https://discord.gift/lGnfvUKXTMgjEM8n
+https://discord.gift/k1jYUVhs470Ly7xN
+https://discord.gift/7s3cknGfuEMHWp0l
+https://discord.gift/WEcVNHizy5kx39zW
+https://discord.gift/pDmmT6c7ueEqjJGO
+https://discord.gift/gPZ35L9AjENpcjlv
+https://discord.gift/f0ssdOC0CfAJd2pZ
+https://discord.gift/yFqokF0NEVdotW4l
+https://discord.gift/2iktqnLCn8B0kAwq
+https://discord.gift/oY1H27lJ9OYrKnHQ
+https://discord.gift/kpQ4S6Ik4YaleaCe
+https://discord.gift/zWaE5xs57KtLzt1a
+https://discord.gift/BUP5TCIspQMe69F9
+https://discord.gift/mU2YncVX6V6hM6VL
+https://discord.gift/6aTtuHu6nRpoUo97
+https://discord.gift/fuzOAdWz9187FBPt
+https://discord.gift/4bh5qlOOz6LFXGcS
+https://discord.gift/W8csHgk3nttCJwAV
+https://discord.gift/c6uTgdR3PUpEBrMD
+https://discord.gift/ZqlHzxVX0oR71lfc
+https://discord.gift/FZC1mtLSriMW1QB6
+https://discord.gift/Q0Ntl3wPkG32wTbD
+https://discord.gift/Pm8LYVrFODpqU96j
+https://discord.gift/WVqbIW1MCXQPASwH
+https://discord.gift/gihOSZh5IiOSNg4k
+https://discord.gift/JTfLDa52vvjaeLf5
+https://discord.gift/gRkL2sB7NvDzhj8w
+https://discord.gift/2GgQNVegmoswQg06
+https://discord.gift/cSL65ssrsi7iHFUm
+https://discord.gift/xWiIFzsvMdyN9eqG
+https://discord.gift/EGxzHcAKoYxEX6JR
+https://discord.gift/Dg948sANAqt23Oro
+https://discord.gift/1BNaivOuvHtRbXIQ
+https://discord.gift/ERk3fwHlfU8rTIQK
+https://discord.gift/GjNvsIIiBOIA9TLM
+https://discord.gift/RMxmEyjF3B5ywxKW
+https://discord.gift/1Tk2kmx5jbBAXgmv
+https://discord.gift/ivJgkEgiahC1NkVe
+https://discord.gift/eVJpJTCFpCdC6TRW
+https://discord.gift/oJpaXEMxMb1cUGs8
+https://discord.gift/pxwcH6Wy3d1SANlr
+https://discord.gift/APMd4VqKjlMH1AVS
+https://discord.gift/kemIwPorX0hTM369
+https://discord.gift/0KMe3oeEhW2wuoHC
+https://discord.gift/siIwBM4UAupdNG7p
+https://discord.gift/oNRqXQZ5aRBKW27J
+https://discord.gift/tOBDvKInQ1OJ8a1L
+https://discord.gift/YMiQHqPLtNwTlt8H
+https://discord.gift/wQU8fE4OfDK6cq69
+https://discord.gift/00WjUrbc9ZkSnYbw
+https://discord.gift/2gmsq2FuSDKdPSJd
+https://discord.gift/Qw3vHYXfPR9ptmAq
+https://discord.gift/Cnd5dOT7uCBqQ8xq
+https://discord.gift/pgb15QZeshNJ2qaG
+https://discord.gift/dtLBOO9cM5aexHyQ
+https://discord.gift/uS9nlIvVy9M6akee
+https://discord.gift/B5nwx5MLg8o9PUQV
+https://discord.gift/S6okqXvE8ZdPbdbB
+https://discord.gift/06NCtctygygmtwfN
+https://discord.gift/t0ne54XOKSyH16Kd
+https://discord.gift/6WiThnCQM0d1RikM
+https://discord.gift/TAvkZ7G6i82LNWHj
+https://discord.gift/YdqHnwFfyHCf057B
+https://discord.gift/IWYALzn9qmKiv0cZ
+https://discord.gift/s4dN2Nyw4qVsEAfm
+https://discord.gift/bAc18gIyZqqbWxUH
+https://discord.gift/EMX62tJ4xBFuN4EZ
+https://discord.gift/gxg4Xl1lvPYLxxKH
+https://discord.gift/GnX1NjuS1iDGLnU4
+https://discord.gift/WA4yqZTtULKnE8Ha
+https://discord.gift/08YzhMm7cydPRuKi
+https://discord.gift/43Z6CmrQDEhcIhn2
+https://discord.gift/KCQNyuXjn6v1VeLz
+https://discord.gift/aBsLjLHOQh6MFky5
+https://discord.gift/kkfoO7UJfPSG0z5z
+https://discord.gift/2RbgYMT95b6qykNd
+https://discord.gift/HARK8wVdRTFD2bXq
+https://discord.gift/mGUYjsgIAgtMaDk5
+https://discord.gift/cP8ASuBG67yfgqh4
+https://discord.gift/oPd2AZ4ptij2dico
+https://discord.gift/JKBndwI2en1l3bCk
+https://discord.gift/9zyuzrEmUSgKkIDY
+https://discord.gift/4kFGZ301hlXn7Sws
+https://discord.gift/Q93NURYrfoCuq8SG
+https://discord.gift/UdqTF5ufIGnoDrpb
+https://discord.gift/wX3kPZenwnAKBFLj
+https://discord.gift/CrC3CNXUOXenEJXX
+https://discord.gift/9A8CeH049dwrETOc
+https://discord.gift/5eVmYvJTajG1U0TW
+https://discord.gift/zNLaHif5BI3yqFp4
+https://discord.gift/jcrAXL8O1pB4b8jj
+https://discord.gift/uK11iOFW80VqBlCF
+https://discord.gift/4LSSIs9YO7jsRk4C
+https://discord.gift/zUeQNxWFGFB70SmQ
+https://discord.gift/W5azpAKbLdnlFneY
+https://discord.gift/6s1QgW2GYnmd1c76
+https://discord.gift/UDFVjEm8kceJkLat
+https://discord.gift/AMaI1FJ9dDLcoHjJ
+https://discord.gift/fqAcRtOCf2GeRsvn
+https://discord.gift/n2Mpbzeo3GSQ3kUM
+https://discord.gift/2FD3k8Lh7IC89FrU
+https://discord.gift/hxZv54HQmlilK8J5
+https://discord.gift/i4lmYCcpqErD6gpy
+https://discord.gift/o7IFuyR88XR9ZAG9
+https://discord.gift/9H0euf6PuKeANeTf
+https://discord.gift/5T6NAdKUmnnaUdz0
+https://discord.gift/7rDzqkeja2kTtru3
+https://discord.gift/eLdfD3J56f2g154r
+https://discord.gift/loCwKtZUPXMH21B5
+https://discord.gift/2u6i9txeSHDks7rf
+https://discord.gift/73IeY8sUVsAQqbdf
+https://discord.gift/O6oH8Ws11xNcZPBR
+https://discord.gift/FHK9swg4blwQ2QYR
+https://discord.gift/EyFwTUglLQnBup5g
+https://discord.gift/0SkTAdWsZuFXzL9k
+https://discord.gift/J6IBjf8UAzyLiPJV
+https://discord.gift/qqZkFeqALmGyptW9
+https://discord.gift/Rd1yRD6VTAtbPkkk
+https://discord.gift/VTGiVYOFPhZ7JKEh
+https://discord.gift/My4fYkeWteAfVpVB
+https://discord.gift/cwNGWNn2ywTKO9mj
+https://discord.gift/5lyqqfwKPUYRyJTA
+https://discord.gift/vy4m68u9lbQBADhu
+https://discord.gift/1qjJ0Ek7ac1bYFDY
+https://discord.gift/Mtoqe9n70zfoy4kl
+https://discord.gift/MEZizkJ1n7m4htkP
+https://discord.gift/H2Zhp1p2dmSAy6If
+https://discord.gift/2QzuQvzCTxcgWsZH
+https://discord.gift/pAQGfc6Vo7enBiCr
+https://discord.gift/ygbB3Z9mCwy1YifU
+https://discord.gift/wkl8pcaZTOfSqlbK
+https://discord.gift/4VSQqyNzBEdSOe6f
+https://discord.gift/1u0q7EbwflRpUq5r
+https://discord.gift/vX7dAzD7GVHV9slP
+https://discord.gift/R916vUNzTwKfRyPk
+https://discord.gift/IWx1h3PC02Tl7qwX
+https://discord.gift/acIUz95KkHteYyqi
+https://discord.gift/fwmn5uIYuygCbBCD
+https://discord.gift/9XePZ5VJ0WQJKKNB
+https://discord.gift/MKgKdj2QDUza2DJS
+https://discord.gift/eZfbuLskLNxiN8nU
+https://discord.gift/UOZAv2z04ylfGUQw
+https://discord.gift/m7FUFMhbr58AWTcF
+https://discord.gift/GOpoNjxmAog5znN1
+https://discord.gift/6a5PDDpiGYiz39dk
+https://discord.gift/wQJ2EBSdJsuqFmLe
+https://discord.gift/shDVYwbczhSYa8sA
+https://discord.gift/l6JTNVwFr1fkj8Mt
+https://discord.gift/ndgWGsw9OGCxS3dL
+https://discord.gift/a3fJM1AHU8D6r13A
+https://discord.gift/EyL62F42JKfhs9Wy
+https://discord.gift/YEjp3dQwMJbHYASW
+https://discord.gift/Nc2usgSE9m9cVtoV
+https://discord.gift/lfiWRNGARptsEwej
+https://discord.gift/2sDpgCfRVPqRdOKs
+https://discord.gift/upvSr5f9FCMdWzaM
+https://discord.gift/h0kD08PTaAacwZwd
+https://discord.gift/Pa8oaw16nDUOZc4v
+https://discord.gift/OOJnDgCvKLS14cNQ
+https://discord.gift/fIyWBWLV8oqwob47
+https://discord.gift/GPxSpjJIIMNyNabk
+https://discord.gift/0dJqOi42cYpp0ggJ
+https://discord.gift/RUupP4B58ZoYinh7
+https://discord.gift/mfFlCNtxVEQA4uRB
+https://discord.gift/GeR3PWF6LNsY4fUZ
+https://discord.gift/RrdVK5heA7EknabO
+https://discord.gift/iWsdFnrzKJJYvFDP
+https://discord.gift/U1TMq61L6MCSsvSK
+https://discord.gift/LNPiXQtD9OlbvsT5
+https://discord.gift/DYzwrzxm4Rg3VIhp
+https://discord.gift/08nRZv2dHpMMVZpO
+https://discord.gift/3GpD5wtlqDnfJARB
+https://discord.gift/H5lwecgi6vYbXVBe
+https://discord.gift/BCaotNtDPbBwhWEh
+https://discord.gift/HlfZO2J1AgHJHryF
+https://discord.gift/ciOhADh3MRRdKUaj
+https://discord.gift/1QDLPMAI2iYmgU6y
+https://discord.gift/M6u9ixRedln7lGqQ
+https://discord.gift/gxS0XXZzSforO5X1
+https://discord.gift/UsAOAbbE8zIDyCxw
+https://discord.gift/2igScfLZg4rdiAAi
+https://discord.gift/yvm2gLqfwn2yowap
+https://discord.gift/R2yGZeZPRKIFT7vI
+https://discord.gift/8AfdpEpr2awYnmLU
+https://discord.gift/3bvqc3ttFHkGdUvy
+https://discord.gift/1tzYr7amMhOYSbCE
+https://discord.gift/9YMSMfGfgVIStToi
+https://discord.gift/P863XWD5biN4pELE
+https://discord.gift/fQGohNVWXuRFzs33
+https://discord.gift/3FjUeIRmuQQDCLZM
+https://discord.gift/kdNNm9abmkfDe7GS
+https://discord.gift/pUbTv1AG9u4A6stm
+https://discord.gift/EfvvPpQ4FhH3Dnhx
+https://discord.gift/k8oSJfrtNgO2eKe4
+https://discord.gift/0299Mkd9dhontGcV
+https://discord.gift/mHp8dLNyYbSILYZ4
+https://discord.gift/cNdKoiU94oOC1d9h
+https://discord.gift/e2PHug0opKlKCFyp
+https://discord.gift/sukQDCHeWqdZ7lHU
+https://discord.gift/cKESirJ6WYuN7jGz
+https://discord.gift/ZyjG3tOMuLVecare
+https://discord.gift/cAI1bQhbVo3Oh4hM
+https://discord.gift/TO9Ibb1S61xGFE3V
+https://discord.gift/HpLGLOyjriVPz9EA
+https://discord.gift/EiuybSdbI04jsKFq
+https://discord.gift/uhh1sKbeq0r2pms7
+https://discord.gift/x6cwkFUZmJ7UTo0R
+https://discord.gift/NFur1Mh4hpikAkVw
+https://discord.gift/H7VvIifYxsPTMqub
+https://discord.gift/aKpU1bfUZip4xKyb
+https://discord.gift/YLnWDEiEzF4J7yr0
+https://discord.gift/4gj04bEG1aGA2lBW
+https://discord.gift/3N4bdIIFBVuvgFXA
+https://discord.gift/0z9qAIhWgR5C8SMo
+https://discord.gift/ehQtDpXwIOyjRjzv
+https://discord.gift/nfJClkwvGh5vNfHT
+https://discord.gift/igr8ZD6KMMSWj7f7
+https://discord.gift/sJo2jjc3VuXwuBTC
+https://discord.gift/gPaL1AGTj80JCJlI
+https://discord.gift/c8dd0PK9dxnEPKqk
+https://discord.gift/3pPE6Ef1cFSksDBl
+https://discord.gift/jotwyPMBfbHDnbeI
+https://discord.gift/SPQn3RMH2lbv6zRK
+https://discord.gift/6bvAq4VnNoy57LOb
+https://discord.gift/BkCMXnrBMWDnOqEP
+https://discord.gift/u6HlQNrX3CKPsQKq
+https://discord.gift/H94W7eXST3YEAIIw
+https://discord.gift/UTLbeCuX2OSuNMj5
+https://discord.gift/lnPOvRSpiYCXZXxv
+https://discord.gift/3n4JfJlePg4svDfg
+https://discord.gift/T2sm33acav2qaH8e
+https://discord.gift/qxAASKZMbK9pXz4P
+https://discord.gift/Tvd6EkB9m1IUQ5ei
+https://discord.gift/hZc8cOyjcQls4VpL
+https://discord.gift/BmHODcKf5An0cf5f
+https://discord.gift/F1h7x6Me644Y9jfB
+https://discord.gift/M6sEyzOfp6cLBIh6
+https://discord.gift/UfWdNroFJDSJiWgW
+https://discord.gift/vWnfWBRgmbSA3bMy
+https://discord.gift/W7d3wbXuSX45Rf7D
+https://discord.gift/ZpqPubjsyQ1MJXLI
+https://discord.gift/0tWkSnAt92x9HWyg
+https://discord.gift/doLOU7eVXUFPkkV4
+https://discord.gift/lveytWUMY7PBOkVM
+https://discord.gift/sUIum7Y2pbx7RUiY
+https://discord.gift/hDXlRaXrE8ZWrMgM
+https://discord.gift/93xAMARoHmiszX4e
+https://discord.gift/Y1ulwJ5s7r0ohbKN
+https://discord.gift/4U7YwSlQVJOE1E2Q
+https://discord.gift/dV7As4qz7fCvKDhF
+https://discord.gift/LFxOZgRgPNzW4AAC
+https://discord.gift/zjkwdku9EI0rp0gs
+https://discord.gift/Cj3vgo17d1UPEDFH
+https://discord.gift/O96AsUCBkxjrpA1Z
+https://discord.gift/GhuVHfvksmsmzPEa
+https://discord.gift/ctMp4P9RRBkTeJSN
+https://discord.gift/95ixiTaJNVifBpbF
+https://discord.gift/2jo5XL50hNef4MgS
+https://discord.gift/EPmEGh1ttdLiH4pB
+https://discord.gift/AP04vWZyarpFO4Pa
+https://discord.gift/OzLWdG8Vr5MU9Wtn
+https://discord.gift/yNPpWmxR0XEp2wOy
+https://discord.gift/xKEisDx3QfNAkfyn
+https://discord.gift/8bhbpAoCc36pcT35
+https://discord.gift/qnwyrk44pVIRJ7HU
+https://discord.gift/zqq0pMj7wcfzHi07
+https://discord.gift/mRj7Sa5XhmWD1H3e
+https://discord.gift/wl0VDdQNdzcpfFxg
+https://discord.gift/5LF1XKcyuCSc0QfZ
+https://discord.gift/jadvseDibG3t8QSL
+https://discord.gift/YPIqbbrVjBBauNXx
+https://discord.gift/tmgeCcY0hwZrQSAO
+https://discord.gift/ThnkhZXhTrm0NDYy
+https://discord.gift/SF9VJOjW1SiPmafA
+https://discord.gift/bWqnzNpEz9ukZ7mO
+https://discord.gift/HAIkTPff7BszQh4S
+https://discord.gift/mVZ1mL8fqEwJt963
+https://discord.gift/FEiVC4RwQlp8u0Yr
+https://discord.gift/eM8eiuB5BC4psFV7
+https://discord.gift/Ez3l9iqseDkbvaVA
+https://discord.gift/PeFRa2Vkdmta9Cdl
+https://discord.gift/zrD56Nr5vP9PkzJB
+https://discord.gift/REJoad7MNThXZqtM
+https://discord.gift/A9MeGZEcWJwu2faO
+https://discord.gift/M2tE2Ykwu1rnFEgf
+https://discord.gift/wxpkXF41aGBBRMTI
+https://discord.gift/SDk67YTLYqTPIrHs
+https://discord.gift/Cq7F0Z1h8CEwxTOS
+https://discord.gift/iTEbtjiINOwHWpsT
+https://discord.gift/9i9AOoR3Md8Ftxnf
+https://discord.gift/LaHZWG8siz1mDuuS
+https://discord.gift/jVxoTne4bLyqlNpp
+https://discord.gift/Aq5VSC6DjRspwFzs
+https://discord.gift/SpvHa9vx6MYlhShE
+https://discord.gift/jLWmyIaQZ4ec5ZHF
+https://discord.gift/lgH5rRpB5IZfOUvB
+https://discord.gift/KYfUTn3joOSg4sCg
+https://discord.gift/fsaallmBwur0S5be
+https://discord.gift/INCgTWW7mxQM9iHM
+https://discord.gift/fT9wTvpyLNyy5dAt
+https://discord.gift/MNIqZvwsGcXXFJCn
+https://discord.gift/XPU95PumxeFgyxci
+https://discord.gift/6xavKqWUwRZRHC3b
+https://discord.gift/llLqtBx6sv2VZq4j
+https://discord.gift/aP0hJgNG39No0NP5
+https://discord.gift/lE5nWWZF9ddoya4g
+https://discord.gift/WQR2LVBeHewtYigP
+https://discord.gift/Q7KuuRxn0viGdyi2
+https://discord.gift/eGBk6XtAd0PSzFR0
+https://discord.gift/6yIBAKVftDcqN4aj
+https://discord.gift/5EprR5S3NkrDcPYu
+https://discord.gift/OrJPZRCEVw1DUdWi
+https://discord.gift/0FW4pzjaPPXqsrdO
+https://discord.gift/ORMvvvtncUGvepiK
+https://discord.gift/xjNG23fohIak4lmD
+https://discord.gift/snYdBBXElJ2F3Y6z
+https://discord.gift/Hn2jNGVUMxoWvjt0
+https://discord.gift/Idc1Bei6wiutaJvs
+https://discord.gift/MKNQtdZWBdBdmajc
+https://discord.gift/pc70We8Ce6WFlCUc
+https://discord.gift/c5jUGMHEnpzxNeTv
+https://discord.gift/8sd8MFGHLlLwquK9
+https://discord.gift/tybr0yGMFCMGOLYa
+https://discord.gift/nBG3yVAGzMjubko3
+https://discord.gift/OAdpdCEKWADj292a
+https://discord.gift/wLiYXRKI8E1oplLu
+https://discord.gift/oT2oHI7V76h7sqOA
+https://discord.gift/Tj7zczf70FrIKpuK
+https://discord.gift/Zj5jhOCYOx11KMpR
+https://discord.gift/0BFfnmsYN5xbrykR
+https://discord.gift/LGijvEteQjUOInwn
+https://discord.gift/qJRiUpwM0gGlrBGp
+https://discord.gift/mkqeDgwviAzdBNqz
+https://discord.gift/IkVRQb6wjFso8hXo
+https://discord.gift/NFBx7sTjnvatZtlm
+https://discord.gift/ZgNhQYIln448Yhxb
+https://discord.gift/NkA5m3CqAMDubMG0
+https://discord.gift/ufz2DQIY6qjcxVug
+https://discord.gift/89QO2pa6OwQeunjL
+https://discord.gift/xeOTSFH7ML96Tz2O
+https://discord.gift/rxwc617eeCog9EDS
+https://discord.gift/gIOthKyDBTcrqdno
+https://discord.gift/EcW71hPGhJOqrA7h
+https://discord.gift/iqZkUJHR83KmZQYa
+https://discord.gift/o9M7SF193imH5ilb
+https://discord.gift/W4i9odD4Ee97GCRA
+https://discord.gift/VObrXazMz0qLx9V0
+https://discord.gift/RJA4HYWlFRCNG3CB
+https://discord.gift/BVWrg3nVEGKxW1HF
+https://discord.gift/tip7bW3610VgHWfF
+https://discord.gift/yZkMmETYwOzaozyO
+https://discord.gift/k6uxNEzP10AqhhoS
+https://discord.gift/Ae96R5tZzBLxx2RC
+https://discord.gift/Bh5KCR13AFUvdCQo
+https://discord.gift/ARKkzC6pNE8m3br8
+https://discord.gift/j8Z9lNpTmgGmk7V7
+https://discord.gift/Vw7QsGc9lQ77TP9y
+https://discord.gift/nWmfNQdWB18t6TeP
+https://discord.gift/TbAGeLQM50YFQs9G
+https://discord.gift/gh9yVPtetkoBIScB
+https://discord.gift/LrnRoCtLfJkX1Ifi
+https://discord.gift/1BmYUQ4eRwn3woem
+https://discord.gift/Xw3zerrOXysmFGmU
+https://discord.gift/fgKhGoR4xja2oAo0
+https://discord.gift/F79FOQdJjIavySJk
+https://discord.gift/jDYqO6QJP9c5rzzx
+https://discord.gift/jBQHHRgyca77nvGO
+https://discord.gift/JZTVL7mIqAZPOisU
+https://discord.gift/jNl6bbNBxAoO9Tvu
+https://discord.gift/CxvBQNWmphrg2AU4
+https://discord.gift/SnYKjKNIlrykTHJG
+https://discord.gift/eFmrW0eF09Q3THJ6
+https://discord.gift/Qu5V5Vk2TXqypLCR
+https://discord.gift/IUbxnCh2isTj3TYO
+https://discord.gift/RCEzMXLtuuH8JPpo
+https://discord.gift/G9v9FmSnmdMMbb99
+https://discord.gift/9LRXhdfUjSc35isD
+https://discord.gift/dFM4yYjFTrnIk9st
+https://discord.gift/vH988ChD3K0WkZsd
+https://discord.gift/UjJGyfLkCle00GJj
+https://discord.gift/ASHxjuFLxjaX8wv3
+https://discord.gift/8jYbAV5q6ZGWxrNw
+https://discord.gift/bQwBs43AO7jpeXlf
+https://discord.gift/0k1QSHTOXrAuYSnf
+https://discord.gift/FOWs94LdpxxCMQlj
+https://discord.gift/NA5nA6ND7SNaDJL5
+https://discord.gift/UdTza3g6JXAukrbh
+https://discord.gift/frRxWaOIatvqqKKQ
+https://discord.gift/WBRJ6WjTu9NMFssP
+https://discord.gift/RF5m2niUykzRIZP8
+https://discord.gift/nUISJBlti7dXwbdR
+https://discord.gift/aPJVPxXIt7kVwBkF
+https://discord.gift/tPzUUJgpuLe4kvxw
+https://discord.gift/hRQ3q3sZ7azLrz6Q
+https://discord.gift/XIDQMs7AItBdt3y7
+https://discord.gift/JXOPUrozwJXTjE84
+https://discord.gift/PxhL1QUZTqv6CoGd
+https://discord.gift/MBcEVr5GtducEoqd
+https://discord.gift/vGy5WWg2dY5E6s7h
+https://discord.gift/dUhSCEjxBLsXwRvF
+https://discord.gift/9rL60Kr0vjA6vBKb
+https://discord.gift/gm9UgIK1waDkDsFv
+https://discord.gift/DAEOQbrCCqwtdnca
+https://discord.gift/brRkSLyBQUJZhgwc
+https://discord.gift/NfD565uf4Hr0lrXj
+https://discord.gift/8DjmLvM2bd86BCvv
+https://discord.gift/4uP7Ugdf6MpltIpy
+https://discord.gift/6A0N6kBsDK337yNC
+https://discord.gift/l551M0z2Adp9gBJD
+https://discord.gift/XJ9bLRyU3xEjmjiH
+https://discord.gift/8W9xMxWgb8n24Blc
+https://discord.gift/bAfxzM1EHl8owpPq
+https://discord.gift/5SatBl0zW3aMEG0B
+https://discord.gift/lCiVdUiw4F0BzHUV
+https://discord.gift/s67mB2KZKPKGMo9b
+https://discord.gift/vHd4h4mkJOy5vzao
+https://discord.gift/jouHIOat1slxjMTQ
+https://discord.gift/FZf2EZNyUXMWDPDl
+https://discord.gift/Pvxx4CCRGTdZTYa7
+https://discord.gift/4SzGtiUtK6WVbn0l
+https://discord.gift/Y9SXpwWdwyvVWYO5
+https://discord.gift/WP1Up72HLdW7PRPt
+https://discord.gift/31aTgmRI6wk4W8GW
+https://discord.gift/r18wwf61hlmlKYxP
+https://discord.gift/Sc25Y5ZK7tY2X7UM
+https://discord.gift/HaQYSt6X5jM4aG7i
+https://discord.gift/9EmUgL8wbyycrddj
+https://discord.gift/BJOKhJ6zfeaOs4JB
+https://discord.gift/vP3sV9F6cuWt54F1
+https://discord.gift/gCDB2xaAHXPcLtdh
+https://discord.gift/Y7QLkVyBdRHXWNEk
+https://discord.gift/JjIZBiI8PCU8uDuS
+https://discord.gift/qPE7n3QvecxkZmN4
+https://discord.gift/sECCVnQQyS6SazhJ
+https://discord.gift/wZGhiG7PCnVzUyiD
+https://discord.gift/Z0PZb27d9YIE78uO
+https://discord.gift/4YXaPFWWHW9ICq6a
+https://discord.gift/KC2kUsID2Diu7CSE
+https://discord.gift/2hE5KhXud2so3zKS
+https://discord.gift/2I4Efk3MqtilwCZe
+https://discord.gift/eEPuWazDOIg1atKC
+https://discord.gift/2AByIoyRn2Pr8M7L
+https://discord.gift/dnkzTp52iAZHecM6
+https://discord.gift/TPs5aAG0f8h3uiEc
+https://discord.gift/LFYWjlTNEJqhy1Nl
+https://discord.gift/qSHttbKNRutVibHa
+https://discord.gift/6X6JnZWI6PABkyBo
+https://discord.gift/u6NLKlSJ4lfZ18ED
+https://discord.gift/cplK5e7A69xOKjCt
+https://discord.gift/2eAlx5zVfwOcT7Q7
+https://discord.gift/k7y4m1tq9nPLYd9V
+https://discord.gift/SW7WHtfg0AFIz4Q8
+https://discord.gift/szDMUHgaVkmkqX6b
+https://discord.gift/x3u7a3z12seWwU0e
+https://discord.gift/GQsyJwakQ6bxh40c
+https://discord.gift/DDlGKT8z9MUBDtOa
+https://discord.gift/thOJFHBa2jqe2bU8
+https://discord.gift/Cbt3JuEWS3z7MIQw
+https://discord.gift/rae9pqH5bkNBC4G7
+https://discord.gift/2V9CaVB9N21LiExt
+https://discord.gift/C3W17USlEx1yQdtY
+https://discord.gift/wBf0JowGIfwwz5WH
+https://discord.gift/Wu8IhPahcX7M3dsJ
+https://discord.gift/JdpQyHUnHqt2xwWI
+https://discord.gift/LuLweUQRB7YWqUMF
+https://discord.gift/WXXwQgipJUb1viUQ
+https://discord.gift/azbJB6FYwHoAS87W
+https://discord.gift/OXfKIA2ElvWtSZvt
+https://discord.gift/nhV1TcdZr99i1RHL
+https://discord.gift/XomIcjiKHGyfklfH
+https://discord.gift/m4nLmfdLTpsJATMD
+https://discord.gift/YlGDMXre9kumN7Pg
+https://discord.gift/3C67E5yRlKYW0JkX
+https://discord.gift/35r9OL4yNiMcV07W
+https://discord.gift/KmP7XP83WYsb9Fnz
+https://discord.gift/9GtSQQBsIHtwtw6v
+https://discord.gift/NbmO4nao6ym0t3zi
+https://discord.gift/4mcpHpf3UwzpvMJA
+https://discord.gift/16y7sJFWGeWsEL9P
+https://discord.gift/ilBhtRYx6s4HXU2u
+https://discord.gift/YW8wEBZvQpSCCWzj
+https://discord.gift/xUhklCgkiaaaP88V
+https://discord.gift/mCDRMMkRvfBd8v5j
+https://discord.gift/3UjdNSjwPXnDAZQR
+https://discord.gift/q7qasRGVJzYfacmW
+https://discord.gift/f0g4Z5iDthcYyQqG
+https://discord.gift/zTWbf51loyDn3dvM
+https://discord.gift/LAyJSW2vYWQlPRw3
+https://discord.gift/jrPrplRj95QBB4Kp
+https://discord.gift/Vzn7rRXN1BmtoPFG
+https://discord.gift/bKeMxewATpJXfA34
+https://discord.gift/mBzqEyLCEczY8y5t
+https://discord.gift/zjA1081RcXochaHA
+https://discord.gift/HsgXqpbM8MhvOIBu
+https://discord.gift/upx6acdoJSnRkJuD
+https://discord.gift/F8qQrhdkiX2o0GcE
+https://discord.gift/w3S1NLAFo2oIbuCz
+https://discord.gift/rOZPrUdmmnXnkZyc
+https://discord.gift/PTvq0D04IVCy2FjY
+https://discord.gift/vC7lRxmM0FPAXmvy
+https://discord.gift/El3r9lJXY5gFrOtR
+https://discord.gift/d91R2mvrGTAuYAgv
+https://discord.gift/Ad4RL1Yj3jxVqQum
+https://discord.gift/l8wYvNGs0LUqVo9y
+https://discord.gift/YUfnTMfmkRYTYJa0
+https://discord.gift/yojZdsaWHM0agIyP
+https://discord.gift/j97FLgCJ3jNNZXDq
+https://discord.gift/K41GekuFUsQhVefL
+https://discord.gift/siKZMEosWK64Px7U
+https://discord.gift/iKzmR2K8PBVtzuXY
+https://discord.gift/dbuQmNOfQJUEnz0w
+https://discord.gift/u68lP34AILkkT52B
+https://discord.gift/Xi0NcqHF6tGhhfVp
+https://discord.gift/Lz8DvLjkh3iLDDwU
+https://discord.gift/RsRfJnteyDpvxWtC
+https://discord.gift/05Jt6ygl9QFji5bC
+https://discord.gift/6VAYxPPxf4e1wXWu
+https://discord.gift/JPVI4cYsmGg3Rk5C
+https://discord.gift/BXyMwFekploctoZl
+https://discord.gift/3lJCkDH47hL1JWQ4
+https://discord.gift/8LAIyj7eKLtTYV98
+https://discord.gift/R49FLCs8qEPp3nKD
+https://discord.gift/FtdSYqWTnE2JkYgl
+https://discord.gift/iNjOWktFtBs4ESlw
+https://discord.gift/aZnERqjBhpsgKSYB
+https://discord.gift/yDhpd6QvaIyx72pF
+https://discord.gift/sFJuKLD1ESGG2n5K
+https://discord.gift/M1GaL6tej2Ej2WEp
+https://discord.gift/aWXfjE1W9pVvzkDX
+https://discord.gift/NYUgwo4wlElShu9R
+https://discord.gift/orFfzZAi9Tbvl8O9
+https://discord.gift/yQGdcx3W1B3OtiOP
+https://discord.gift/qdgiOxxXxMgMnJln
+https://discord.gift/0ltAY5P0yTn86WY1
+https://discord.gift/eveh1GvbtSQArqJs
+https://discord.gift/qPYhYo1vypT4kz1K
+https://discord.gift/XoI1Edwt0shfooJh
+https://discord.gift/k5Rq7Rc0ESSLXA13
+https://discord.gift/1fNcRRXmtFqGgWgj
+https://discord.gift/QMUoRKNfmSxVuUGA
+https://discord.gift/BnniLGAChF6CAGTR
+https://discord.gift/MI5kQMlqCH09ub2J
+https://discord.gift/90e2I7IklrhmOkPP
+https://discord.gift/8PjVZvTZb7QePAif
+https://discord.gift/MxCKB1jOaU9yE9Mr
+https://discord.gift/2kbP2gUOgp0LrEEV
+https://discord.gift/jbJrSeogFFVewuuc
+https://discord.gift/uylFyCnGMYDmaHwG
+https://discord.gift/pnpCzuJX64jwvPsW
+https://discord.gift/4Yq2s9wQYdO3Lbg8
+https://discord.gift/ioYif1M9ZyIEt0l7
+https://discord.gift/GRsmqDnq0IOwQPl5
+https://discord.gift/Ylng0jQclqd4B2x7
+https://discord.gift/2Rx4T4RObIrGnqtj
+https://discord.gift/mNQiMegwapaaAtY8
+https://discord.gift/kQE9srl3DJfr1jZ5
+https://discord.gift/74SXmpvXKb4E4RoR
+https://discord.gift/TtwGVu14BWOd9YE0
+https://discord.gift/zfcGLbV5vQyqxR9W
+https://discord.gift/uxHIXtjNcXwALrYV
+https://discord.gift/HdeYORgSHAlf5KHT
+https://discord.gift/W1TMq5cg5zDXOvtd
+https://discord.gift/2NTtNkhMqZaxheSC
+https://discord.gift/pNNTIlELb83posem
+https://discord.gift/ghms0ogMTgvB5P81
+https://discord.gift/QbIbSKFQiirOr2y7
+https://discord.gift/VYq91ALaGbaC0cPw
+https://discord.gift/9bInUcDGMFjS6Cu1
+https://discord.gift/RxQhz99qzHERJd0f
+https://discord.gift/D5OqulnSuTxwq3de
+https://discord.gift/QjUCwI7abrXnHW6J
+https://discord.gift/PdobXeHGk8WPMNaF
+https://discord.gift/DAaAsxT48NocxakH
+https://discord.gift/WXRmOcrMMnrxVryy
+https://discord.gift/rrThWGqruucj0Ejk
+https://discord.gift/Xo3Y6X1AixYffviR
+https://discord.gift/oZUfqcVqGz2u9hWh
+https://discord.gift/dhJGyKCEAs9yRll8
+https://discord.gift/lv5aTe4VDMsG5GBb
+https://discord.gift/LRb8VLsOxqO7dxIv
+https://discord.gift/n3iNmVx9nYdVs5J3
+https://discord.gift/17XajnmJdqNDz6Rg
+https://discord.gift/d6sbxXZZtcV6IGwB
+https://discord.gift/RUfgJIlaQJK5i4Kq
+https://discord.gift/h7SvNHFdi7QhCpbG
+https://discord.gift/4lVO0LGEVsuYn4Qz
+https://discord.gift/BEZKYbYjpc8M2eIA
+https://discord.gift/Idb6i5zFBnJvnR0o
+https://discord.gift/rqP7AAR2xLzYN4LR
+https://discord.gift/T3qj2UqFeujLBD6H
+https://discord.gift/lUvMyLaiviIHGL2G
+https://discord.gift/L2LtAQvG9k2fqgB4
+https://discord.gift/P1N3J9ti2iXUlT8D
+https://discord.gift/CN9J1MgEyYNnS52o
+https://discord.gift/RO1P787MJDAs3Kvp
+https://discord.gift/lyNMh1ccUiEVwfz7
+https://discord.gift/pJdG1tFDPwaylXLX
+https://discord.gift/CxctrphZLZ4ZEmqD
+https://discord.gift/dDctHYx13k7U1O06
+https://discord.gift/HQs8cgQaBn5cyQ9D
+https://discord.gift/gGvSVrqO9lAhsw87
+https://discord.gift/98rX4rB6Xc2u3vCm
+https://discord.gift/lDOushlpAN91QISe
+https://discord.gift/o7dAzlJYfz5Sz5VO
+https://discord.gift/Sn6YSNP1WbxqsJqo
+https://discord.gift/tXf5scX94Zp3mC0E
+https://discord.gift/2ujCM4wLsmNxYsGF
+https://discord.gift/iQzL0ZwPA643yVOu
+https://discord.gift/k2x7AXLzBENgyAlL
+https://discord.gift/tTUFdoOd8DcQ9CmG
+https://discord.gift/Htm65Ifvfakvlqra
+https://discord.gift/VsKPbir6nu97U5z8
+https://discord.gift/rhIfnpQUOzAcds1S
+https://discord.gift/lc5Q2HFzcqSKIhKj
+https://discord.gift/KmeeRmWFMZbLRo24
+https://discord.gift/CqVSaSfULic6GfmG
+https://discord.gift/YrB1oWa9qzecG3RX
+https://discord.gift/yXhsw2j2gtCJjZ9G
+https://discord.gift/NEWAWaQQqVCKOdoS
+https://discord.gift/AoIS83j6iJV5uB0A
+https://discord.gift/AHzbgrbxhBbLzIod
+https://discord.gift/fUi4rqITvZrnpVwY
+https://discord.gift/5bkgNmLinkLG2IHJ
+https://discord.gift/uRZJt5jk9QQqaXiw
+https://discord.gift/fmPxyiz2i9RgOb1X
+https://discord.gift/sS2H5WFa2ah7Gviz
+https://discord.gift/cpBP2jlmr7BtodF7
+https://discord.gift/Y38r4KAtRPFxaCvX
+https://discord.gift/0rezKl4jHQq7vmVZ
+https://discord.gift/EkiNx1FBYi8mNXlZ
+https://discord.gift/MNC68gwM8YUouD7E
+https://discord.gift/3Q30tRA9WMLCnSFT
+https://discord.gift/EAvRTZ0yXFPIgqgv
+https://discord.gift/kDs74vF4nDkvE4zq
+https://discord.gift/sbU3iqVeZEdXc13F
+https://discord.gift/FqrUzIZj5ADqOE32
+https://discord.gift/gypfGnm3SohzrR2v
+https://discord.gift/JPZoNO1UlK7RWEAv
+https://discord.gift/KlRNMX8sdyclBA1o
+https://discord.gift/IiQ9OPoCHF35pFgn
+https://discord.gift/YVYfaoTWQHlpMPsV
+https://discord.gift/TTjOYAQ56ofg3ddH
+https://discord.gift/rZxPLVntz4shD901
+https://discord.gift/nimFvCyxf2jViM2N
+https://discord.gift/EN8WsMk7G0o4hJC6
+https://discord.gift/yn3V0HlYAaKSMBkX
+https://discord.gift/bPNZbdJK8p9FoEpG
+https://discord.gift/Amx4ShW6CjwsbBue
+https://discord.gift/PB2C6M5vOsXLIQK6
+https://discord.gift/UesAepe43Qx1QqIH
+https://discord.gift/440WLXJXqbqzulyW
+https://discord.gift/JzH7i49Aw8IpodOx
+https://discord.gift/UpQNZXu7EEjc9PKR
+https://discord.gift/rLsrSLya4AANouIn
+https://discord.gift/x2PeEV6WfKCOU7AR
+https://discord.gift/y08NUxPi1PSzxRTk
+https://discord.gift/55Pg9FnGPGliiTq7
+https://discord.gift/9Toxw5CanGmZcGyx
+https://discord.gift/0sSYruR2NB7olGah
+https://discord.gift/zUAOCwY9DP3DtxEj
+https://discord.gift/hYsZaBQObwT47oYQ
+https://discord.gift/GezsfU4EETvMAoIp
+https://discord.gift/7Ygxokh7eVMgM3bo
+https://discord.gift/0m7o8mdw3XvrgdoX
+https://discord.gift/XD7jhBCv7BntiY2K
+https://discord.gift/RgWoqurVUTDAZZ1a
+https://discord.gift/HYsi62gzTMrG8Tof
+https://discord.gift/5UK9raGDmmyy8bFi
+https://discord.gift/JmWuGTOYaxEOcUWb
+https://discord.gift/FyFeo2THrY5UESAR
+https://discord.gift/gi6V74JlgW94F2AB
+https://discord.gift/zx2JFB3RDocRX4ur
+https://discord.gift/6WI4XbdLYu8C2Zbz
+https://discord.gift/xDuh01mOopsT11xl
+https://discord.gift/CR7TtGOxtqUlCBYN
+https://discord.gift/mNtuJnBfK3PITuT7
+https://discord.gift/7Wal1sf0Z7XJgalX
+https://discord.gift/AOGoHdMoq2jz1fO9
+https://discord.gift/GXnQBNW4HDEMz19J
+https://discord.gift/R1ifYFz4kV48jP9T
+https://discord.gift/sXcsXFvW1LReI9Zy
+https://discord.gift/3JS97IlbxtGQTXV1
+https://discord.gift/DUtLZQWmGvnmXvvk
+https://discord.gift/6FfJ79WTMa4E9Pdd
+https://discord.gift/0ZKYQnJnXFDMv8nc
+https://discord.gift/7wTnSl3D8J9YVrn0
+https://discord.gift/rjw8UHDT62WBGjyO
+https://discord.gift/X2GM5ZvO5h0gnVBF
+https://discord.gift/sNulLprz2ar0zB7Y
+https://discord.gift/lub2UK4CYScNRxFk
+https://discord.gift/Aqj3ZndHLgU4IFpD
+https://discord.gift/jb43UIVRS2x3nOSF
+https://discord.gift/Fgzisd98qDrN093s
+https://discord.gift/DIDPCLA1FBl6Zku6
+https://discord.gift/ypzBfglgc6Mqrh0S
+https://discord.gift/8eAOkcc3QHN02cig
+https://discord.gift/jupLKCnwwxNG8kKx
+https://discord.gift/KC7VUPVvmFVICun9
+https://discord.gift/XGh61piG1dsXzF4F
+https://discord.gift/6ppAexwDI3yeRO4b
+https://discord.gift/kOTCcNFvuB4Qx86R
+https://discord.gift/KpLmfW4AjNy80dZm
+https://discord.gift/jqNVWCDtT4fNCPgK
+https://discord.gift/7RDBdR6xTsszpHFq
+https://discord.gift/MSHgul4iWsCkQr8E
+https://discord.gift/GXaiKxiBtqcEjddl
+https://discord.gift/zZaUh9pWXvPUoVQB
+https://discord.gift/uY2BHwQoJgXeiA8S
+https://discord.gift/oqV1qnwGInvoSxnH
+https://discord.gift/KKjvlLOcjWkbmlNw
+https://discord.gift/w6G79YkgBv3taBFl
+https://discord.gift/3pEIrMHNMTREdvux
+https://discord.gift/J92W1pHVAc4ZSubS
+https://discord.gift/q9i6RffTy2vqgPdf
+https://discord.gift/bGTbITtNRShoSS4r
+https://discord.gift/R9odnxPE3ix84rOU
+https://discord.gift/9YYmKajHPEp870bQ
+https://discord.gift/8dJhB92N0phAvuTA
+https://discord.gift/exp33SRR0RyTiRGc
+https://discord.gift/gQa0SHt96lvv2Slu
+https://discord.gift/UY4KLhWqw1rULjEj
+https://discord.gift/SftPu3SGeq7SwvYh
+https://discord.gift/Gd8uW6B93UE0qIxW
+https://discord.gift/QmMXzFa1gxGvke3a
+https://discord.gift/djoIkkwWNuVJz1qF
+https://discord.gift/2kbjTbSachnzAfZZ
+https://discord.gift/0DXguZMG0ZjeUBCo
+https://discord.gift/gaC9cUrbAoFd67wH
+https://discord.gift/F5T5ekldIFs32NpL
+https://discord.gift/P9szNZXfmVPgtIK3
+https://discord.gift/DLJZRGj6ZzAHBxjW
+https://discord.gift/84x7O64PiNTtEeU9
+https://discord.gift/5zAqeA3iZvJozpOY
+https://discord.gift/M3hykMoGR4QeX0CU
+https://discord.gift/OBMc73SIboiswQq2
+https://discord.gift/84RL6vYsk3JjTYv8
+https://discord.gift/3YJ7NM1SkJx5E5ja
+https://discord.gift/OYf2j1YsMu1dtIZm
+https://discord.gift/3jzIgspwc8Ax83Xp
+https://discord.gift/TIF4SCYcaqvtVXyL
+https://discord.gift/TkcvGL3vIT0lAAtS
+https://discord.gift/GMtVd4DAuwHZ66Lo
+https://discord.gift/JZOX0CSiPjv9MNMK
+https://discord.gift/7MWjENIYRMakedzM
+https://discord.gift/hLLLWF2d3lg3IDYQ
+https://discord.gift/U62tjCU5qZgoCHdL
+https://discord.gift/UT2acaYBUSpsHPpn
+https://discord.gift/XtAikfDP1Pu7zNLw
+https://discord.gift/hEjZLXOTiBJAnByL
+https://discord.gift/J3Aih5AOpniwQ1bg
+https://discord.gift/g2kdFzLaPQ9TGcBz
+https://discord.gift/rTxFnDomeEKyOsdq
+https://discord.gift/zCturvfjrADB5Rhm
+https://discord.gift/VTe6DG3NO88aZnvw
+https://discord.gift/NTteThi6NooXaXqw
+https://discord.gift/xxM5ngX3JQQswete
+https://discord.gift/egYmxcDOKisprfM0
+https://discord.gift/SLNBKAjG5zFcAZKJ
+https://discord.gift/4kS49d9v48ueXILD
+https://discord.gift/dZKUB1DO6rr7HAnV
+https://discord.gift/ITuhxS1OMsHLfeSx
+https://discord.gift/Yc9LpZicQe7RWbXD
+https://discord.gift/VJGeoEfu76hju1I2
+https://discord.gift/J3jEBLFSKrBtVj1K
+https://discord.gift/Ed0GHOju6ONtR9SZ
+https://discord.gift/Fei22scjdXD6dWJX
+https://discord.gift/eGOrabu4UZIW7maL
+https://discord.gift/JLXQb8SlaRDUkmqj
+https://discord.gift/f0oluAYDUnicUpl0
+https://discord.gift/W1wB82WgYDqtIKUI`
+    var words = string.split('\n');
+    let random = words[Math.floor(Math.random()*words.length)];
+    message.author.send(`${random}`);
+};
+};
+});
+client.on('message', message =>{
+    if (!message.guild) return;
+if (message.content === '/metal'){
+    if (usedCommandRecently4.has(message.author.id)){
+        message.channel.send('Cooldown Message')
+    } else{
+        usedCommandRecently4.add(message.author.id);
+        setTimeout(() =>{
+            usedCommandRecently4.delete(message.author.id);
+        }, 10000)
+    var string = `https://discord.gift/9ffUWvEmKzpyCkr3WqKvxFUr
+    https://discord.gift/C54YfaHRN3CB4ByqFnaxSpUg
+    https://discord.gift/4vNFvFeZp2sktwzDtSYzQy9W
+    https://discord.gift/3GmUZCy7j8USxPMrp6g3Spnm
+    https://discord.gift/h7hzs9zTXrydMHRJRaMeqZX5
+    https://discord.gift/tUWgFxjvP95Qf2gkTm6J5NKe
+    https://discord.gift/GPUPGQzTEfJMBxhWYXt7SMvd
+    https://discord.gift/6kB3mnbwddQckjnzcTSZVYuz
+    https://discord.gift/KzqzHXHqqebrXBFprEP7EqxZ
+    https://discord.gift/Dgs9rvq9CrdAqptuStRHzRbx
+    https://discord.gift/buUazkwfbFdKtJ2nxE7jsHRn
+    https://discord.gift/DXcm3zGQ2rjTn3tMwXaGxUtS
+    https://discord.gift/nbd9ehAV6fCXrfV7EqUFCTAP
+    https://discord.gift/wNW6vADxWuYnkM7rgvfUrmaH
+    https://discord.gift/CMZY8GFbk6nZCcWgFfRSKPkE
+    https://discord.gift/vr3yXvKgDDQgRAyhuAP5ZFjb
+    https://discord.gift/wBGcbe5EGtVUUfgg3Cc8m7Wb
+    https://discord.gift/Qy97MCjmemUM6rgjM2b4YrAu
+    https://discord.gift/6hczUJZRxh5BpWdWBQnBNrMH
+    https://discord.gift/rncMYPmatMksfVVWJNT2mmQ7
+    https://discord.gift/E8JRffGNTT4EKFfwcvpEjSCp
+    https://discord.gift/gJMgNJHBkSKBeUyGuDquAe7d
+    https://discord.gift/3gWHgt4JA9aXsHwWn72ms4nx
+    https://discord.gift/dAt3RBDYuxyseECgHpAaNjYy
+    https://discord.gift/AAB9h7meC46GZHTezMAnCYFC
+    https://discord.gift/m9s8vAfD5cWwfzAApacs7Zf4
+    https://discord.gift/czXxXHGzFdRsFahF2cUxMQmR
+    https://discord.gift/DJ65uE724ZTHZU9vzFkcvnsy
+    https://discord.gift/YUgbacbY4FjRZ3pKdQ2rP2Tm
+    https://discord.gift/kvzq8626QQyFbsJkBehbNHc8
+    https://discord.gift/ZvSSh6Je988NzSssEnkN6Mk2
+    https://discord.gift/HxSjyN4aXghZpXpH6tzmwgFt
+    https://discord.gift/XH3mtv4K5hjq4BAByqusaugV
+    https://discord.gift/yGyBh2Jby9rus4HJqZN9sFqA
+    https://discord.gift/hPTjsSE9YyMUuRthWbV33x8A
+    https://discord.gift/y7y7MC2yHx7vkGW4ZRbXFFXn
+    https://discord.gift/TF45vuE7Ctq7FkUBuHcGa57B
+    https://discord.gift/tDWjmmpmmM58VYmgDwEErzGF
+    https://discord.gift/zavpSDWx7WHgn9fGJNV26HJ4
+    https://discord.gift/9aU6c45RSFRw4yhENkvxfSkJ
+    https://discord.gift/NaJYGtSnShVRr67AMVc3NgXc
+    https://discord.gift/KNQWdpwUvkmFhuhhS8upFYyD
+    https://discord.gift/GFg6KcJq53qEhbRb9MjURBwC
+    https://discord.gift/WUKsyVhZcunMbk3YMSSxxueW
+    https://discord.gift/NJHmxFmQm5sbG9TTW7yJ35az
+    https://discord.gift/QPuwjxhMymzXV3U8cxs2TeYn
+    https://discord.gift/Fe8UBPgF48e4WdQNg2jnMFMe
+    https://discord.gift/T3ux7Hxtmf8Bka8wVGenyAMD
+    https://discord.gift/QZH9A4uE4NFyCreAdRVuuTUs
+    https://discord.gift/jcJutgh92H47BXAAds4gPKVc
+    https://discord.gift/Buw3awm8uJ5deHurjvbHJyjy
+    https://discord.gift/nes8RvPn2qQmjMGTRPFKKmTG
+    https://discord.gift/kN3ykurjRZwX3QArNKD58BRh
+    https://discord.gift/VVq54dcK7kTNm6mEuCgqGgVh
+    https://discord.gift/phKTRb22t7DFAxQQZsu5yGpq
+    https://discord.gift/SU3PdXT4R8XPUgNkzEN8gmGa
+    https://discord.gift/wZg2948y3BkGfdtFNxstYUz5
+    https://discord.gift/z8VSQAHTGgpCFVNv3DVgsRBg
+    https://discord.gift/v4T5SvpXTgVfqRyF83WzYZke
+    https://discord.gift/UjPyXg5UbGdHXN9zNDjj5Cdz
+    https://discord.gift/QSF2mYXddtYA5DvsgqcdpNJv
+    https://discord.gift/cbUqjGfJDqN48H3t96Hjyxnh
+    https://discord.gift/knFRu2NkYUPAgBetU3r49kNh
+    https://discord.gift/pSx6vN6zhZkNWkTgZfYcBG6T
+    https://discord.gift/nXebCnrzJFZcA2YPwd2Xn7NR
+    https://discord.gift/RdvfY4jCRu6UuzC63UuywNGn
+    https://discord.gift/9QDDhceJrEyx3se8ekfzxuVE
+    https://discord.gift/MdvJguRwhP43zSSPaQssRzhH
+    https://discord.gift/PKbBNKpJ9CS3uF9KdjYFwnP4
+    https://discord.gift/P37JxZAvCszMfMDZfjJ5WJ6b
+    https://discord.gift/u7QaVrcEAShvzXBGrFsXSB9K
+    https://discord.gift/7PfvUMaAZsw9EB7YDmkyf25v
+    https://discord.gift/VutSFVeEsmjpVgz4z7vVBGya
+    https://discord.gift/2rnXWqs7bnSs8FptaMts4nhM
+    https://discord.gift/vz9nNGC7JzqgtaW2TF4zy5Ke
+    https://discord.gift/8VugytHkPAdrzPWuS4f8MMz4
+    https://discord.gift/6PsVESsc2fjEeVh8NRj9zwf8
+    https://discord.gift/VFq2ng2eux5xfZVTBByCWBaa
+    https://discord.gift/GZxsdwqsgqfQR8XGPQVThGrE
+    https://discord.gift/DxK6CSqBvtEKFhuTRf8bGR9u
+    https://discord.gift/nqcuTjvyGt5fdXRXB8Zugdf9
+    https://discord.gift/22GbeVZsnDtsMxkQ75FhpeYn
+    https://discord.gift/Tzy6zTWV84zECNh37ExgTfbU
+    https://discord.gift/9stmK6WZg9dtajyrwWyjaehU
+    https://discord.gift/3vJfRNeRMUxKJKG5HhgNHZ7D
+    https://discord.gift/Wvpr8nKWhcbJnTmBAEtqxNCD
+    https://discord.gift/efNtNhEZRvDjNvSDB6hJsPxq
+    https://discord.gift/Msd94HThu3ExP3P9DdhBnjjt
+    https://discord.gift/G9qCXuMrv7s5dDSkArWdHzQV
+    https://discord.gift/nxd4G36tu42DjNSm29Mjb7Pk
+    https://discord.gift/jZq76hu7Q3R8aapDyayNhKRk
+    https://discord.gift/jEDBudjvBhgkZ4XeJGFk3J5e
+    https://discord.gift/Tab3zC2MYa434dGTwNuyQSX9
+    https://discord.gift/ZMdhK6Gp52Xkk5ftH4aEgVwt
+    https://discord.gift/UVZkpSthDyTGe3tv8jhFP8BV
+    https://discord.gift/qkTgGbn78kxF5HkJn5CKK6fn
+    https://discord.gift/BGTtYVm3twnHEkbS6RMHMa2h
+    https://discord.gift/96ehX2nDhsUTaPEJ2xVX4xKa
+    https://discord.gift/FWxAFnxDnR2PqnECtnNMPKgX
+    https://discord.gift/qfArfRFEyM3tpZwg4QdygqQC
+    https://discord.gift/CGdqkzCBYvh4kucNzXbCaBb4
+    https://discord.gift/yjEQQ566Q74UNnb6smz4Mgjd`
+    var words = string.split('\n');
+    let random = words[Math.floor(Math.random()*words.length)];
+    message.author.send(`${random}`);
+};
+};
+});
+
+client.login(token);
